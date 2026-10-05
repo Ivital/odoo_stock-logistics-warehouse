@@ -12,3 +12,9 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_stock_secondary_unit
 msgid "Get product quantities in a secondary unit"
 msgstr "Отримує кількості товару в додатковій одиниці вимірювання"
+
+#. module: stock_secondary_unit
+#: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move__secondary_uom_id
+#: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move_line__secondary_uom_id
+msgid "Second unit"
+msgstr "Друга одиниця"

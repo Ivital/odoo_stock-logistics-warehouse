@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -59,7 +58,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_move_line__line_accuracy
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_location_accuracy
 msgid "Accuracy"
-msgstr ""
+msgstr "Точність"
 
 #. module: stock_cycle_count
 #: model:ir.actions.report,name:stock_cycle_count.action_report_stock_location_accuracy
@@ -80,7 +79,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__active
 msgid "Active"
-msgstr ""
+msgstr "Активний"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_inventory__prefill_counted_quantity
@@ -113,7 +112,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Assigned to"
-msgstr ""
+msgstr "Призначено"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
@@ -145,7 +144,7 @@ msgstr "Скасувати"
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_cycle_count__state__cancelled
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Cancelled"
-msgstr ""
+msgstr "Скасовано"
 
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_res_company
@@ -155,7 +154,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__company_id
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #. module: stock_cycle_count
 #: model:ir.actions.server,name:stock_cycle_count.action_server_warehouse_execute_cycle_count
@@ -207,7 +206,7 @@ msgstr "Дата створення"
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Валюта"
 
 #. module: stock_cycle_count
 #: model:ir.actions.report,name:stock_cycle_count.action_report_stock_cycle_count
@@ -226,7 +225,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.ui.menu,name:stock_cycle_count.menu_report_accuracy_stats
 msgid "Cycle Count Accuracy"
-msgstr ""
+msgstr "Точність циклічної інвентаризації"
 
 #. module: stock_cycle_count
 #: model:ir.actions.server,name:stock_cycle_count.ir_cron_compute_cycle_count_action_ir_actions_server
@@ -243,7 +242,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_warehouse__cycle_count_rule_ids
 #: model:ir.ui.menu,name:stock_cycle_count.menu_stock_cycle_count_rule
 msgid "Cycle Count Rules"
-msgstr ""
+msgstr "Правила циклічної інвентаризації"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.view_warehouse_form
@@ -267,7 +266,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.ui.menu,name:stock_cycle_count.menu_stock_cycle_count
 msgid "Cycle Counts"
-msgstr ""
+msgstr "Циклічні інвентаризації"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
@@ -307,7 +306,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_location_accuracy
 msgid "Date"
-msgstr ""
+msgstr "Дата"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
@@ -358,7 +357,7 @@ msgstr "Назва для відображення"
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_cycle_count__state__done
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Done"
-msgstr ""
+msgstr "Готово"
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -392,7 +391,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_cycle_count__state__open
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Execution"
-msgstr ""
+msgstr "Виконання"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_follower_ids
@@ -413,7 +412,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "Має повідомлення"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__id
@@ -460,7 +459,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_location_accuracy
 msgid "Inventory"
-msgstr ""
+msgstr "Запаси"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_location__loc_accuracy
@@ -476,7 +475,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__stock_adjustment_ids
 msgid "Inventory Adjustment"
-msgstr ""
+msgstr "Коригування запасів"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_res_company__inventory_adjustment_counted_quantities
@@ -492,7 +491,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
 msgid "Inventory Adjustments"
-msgstr ""
+msgstr "Коригування запасів"
 
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_stock_location
@@ -539,7 +538,7 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Location"
-msgstr ""
+msgstr "Розташування"
 
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_report_stock_location_accuracy
@@ -587,7 +586,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__name
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__name
 msgid "Name"
-msgstr "Name"
+msgstr "Назва"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_needaction_counter
@@ -710,12 +709,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__state
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "State"
-msgstr ""
+msgstr "Стан"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.report_cyclecount
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 #. module: stock_cycle_count
 #: model:ir.actions.act_window,name:stock_cycle_count.action_stock_cycle_count

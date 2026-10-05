@@ -22,7 +22,7 @@ msgstr ""
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__active
 msgid "Active"
-msgstr ""
+msgstr "Активний"
 
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
@@ -32,12 +32,13 @@ msgstr ""
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_form
 msgid "Archived"
-msgstr ""
+msgstr "Архівовано"
 
 #. module: stock_demand_estimate
-#: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__company_id model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
+#: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__company_id
+#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__create_uid
@@ -55,19 +56,21 @@ msgid "Date (From)"
 msgstr ""
 
 #. module: stock_demand_estimate
-#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_form model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_list
+#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_form
+#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_list
 msgid "Date From"
-msgstr ""
+msgstr "Дата від"
 
 #. module: stock_demand_estimate
-#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_form model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_list
+#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_form
+#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_list
 msgid "Date To"
-msgstr ""
+msgstr "Дата до"
 
 #. module: stock_demand_estimate
 #: model:ir.ui.menu,name:stock_demand_estimate.stock_demand_planning_menu
 msgid "Demand Planning"
-msgstr ""
+msgstr "Планування попиту"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__display_name
@@ -75,9 +78,10 @@ msgid "Display Name"
 msgstr "Назва для відображення"
 
 #. module: stock_demand_estimate
-#: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__manual_duration model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_form
+#: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__manual_duration
+#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_form
 msgid "Duration"
-msgstr ""
+msgstr "Тривалість"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__duration
@@ -92,12 +96,12 @@ msgstr ""
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
 msgid "Expired"
-msgstr ""
+msgstr "Прострочено"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__manual_date_from
 msgid "From"
-msgstr ""
+msgstr "Від"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__date_from
@@ -125,9 +129,10 @@ msgid "Last Updated on"
 msgstr "Останнє оновлення"
 
 #. module: stock_demand_estimate
-#: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__location_id model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
+#: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__location_id
+#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
 msgid "Location"
-msgstr ""
+msgstr "Розташування"
 
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
@@ -135,14 +140,15 @@ msgid "Not Expired"
 msgstr ""
 
 #. module: stock_demand_estimate
-#: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__product_id model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
+#: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__product_id
+#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
 msgid "Product"
 msgstr ""
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__product_uom_qty
 msgid "Quantity"
-msgstr ""
+msgstr "Кількість"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__product_qty
@@ -175,20 +181,23 @@ msgid "Stock Demand Estimate Line"
 msgstr ""
 
 #. module: stock_demand_estimate
-#: model:ir.actions.act_window,name:stock_demand_estimate.stock_demand_estimate_action model:ir.ui.menu,name:stock_demand_estimate.stock_demand_estimate_menu
+#: model:ir.actions.act_window,name:stock_demand_estimate.stock_demand_estimate_action
+#: model:ir.ui.menu,name:stock_demand_estimate.stock_demand_estimate_menu
 msgid "Stock Demand Estimates"
-msgstr ""
+msgstr "Оцінки складського попиту"
 
 #. module: stock_demand_estimate
 #. odoo-python
 #: code:addons/stock_demand_estimate/models/stock_demand_estimate.py:0
-msgid "The requested operation cannot be processed because of a programming error setting the `product_qty` field instead of the `product_uom_qty`."
+msgid ""
+"The requested operation cannot be processed because of a programming error "
+"setting the `product_qty` field instead of the `product_uom_qty`."
 msgstr ""
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__manual_date_to
 msgid "To"
-msgstr ""
+msgstr "Кому"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__date_to

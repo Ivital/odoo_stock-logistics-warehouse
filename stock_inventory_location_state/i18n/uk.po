@@ -1,0 +1,63 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory_location__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory_location__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory_location__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields.selection,name:stock_inventory_location_state.selection__stock_inventory_location__state__done
+#: model_terms:ir.ui.view,arch_db:stock_inventory_location_state.view_stock_inventory_location_search
+#: model_terms:ir.ui.view,arch_db:stock_inventory_location_state.view_stock_inventory_location_tree
+msgid "Done"
+msgstr "Готово"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory_location__inventory_id
+msgid "Inventory"
+msgstr "Запаси"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory_location__location_id
+msgid "Location"
+msgstr "Розташування"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields.selection,name:stock_inventory_location_state.selection__stock_inventory_location__state__pending
+#: model_terms:ir.ui.view,arch_db:stock_inventory_location_state.view_stock_inventory_location_search
+msgid "Pending"
+msgstr "Очікують"
+
+#. module: stock_inventory_location_state
+#: model_terms:ir.ui.view,arch_db:stock_inventory_location_state.view_stock_inventory_location_tree
+msgid "Start"
+msgstr "Почати"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory_location__state
+#: model_terms:ir.ui.view,arch_db:stock_inventory_location_state.view_stock_inventory_location_search
+msgid "State"
+msgstr "Стан"

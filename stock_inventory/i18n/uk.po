@@ -1,0 +1,117 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__count_stock_quants_string
+msgid "Adjustments"
+msgstr "Коригування"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__responsible_id
+msgid "Assigned to"
+msgstr "Призначено"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__state__cancel
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__date
+msgid "Date"
+msgstr "Дата"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__state__done
+msgid "Done"
+msgstr "Готово"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__stock_quant_ids
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_move_line__inventory_adjustment_id
+msgid "Inventory Adjustment"
+msgstr "Коригування запасів"
+
+#. module: stock_inventory
+#: model:ir.ui.menu,name:stock_inventory.menu_action_inventory_tree
+msgid "Inventory Adjustments"
+msgstr "Коригування запасів"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__location_ids
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
+msgid "Locations"
+msgstr "Розташування"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__owner_id
+msgid "Owner"
+msgstr "Власник"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__product_ids
+msgid "Products"
+msgstr "Товари"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__state
+msgid "State"
+msgstr "Стан"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_quant__to_do
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_stock_quant_search_not_done
+msgid "To Do"
+msgstr "Зробити"
