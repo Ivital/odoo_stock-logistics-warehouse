@@ -61,3 +61,34 @@ msgstr "Почати"
 #: model_terms:ir.ui.view,arch_db:stock_inventory_location_state.view_stock_inventory_location_search
 msgid "State"
 msgstr "Стан"
+
+#. module: stock_inventory_location_state
+#: model_terms:ir.ui.view,arch_db:stock_inventory_location_state.view_stock_inventory_location_tree
+msgid "Inventory Lines"
+msgstr "Рядки інвентаризації"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory_location__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory_location__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_inventory_location_state
+#: model_terms:ir.ui.view,arch_db:stock_inventory_location_state.view_stock_inventory_location_tree
+msgid "Re-open"
+msgstr "Відкрити знову"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields.selection,name:stock_inventory_location_state.selection__stock_inventory_location__state__started
+#: model_terms:ir.ui.view,arch_db:stock_inventory_location_state.view_stock_inventory_location_search
+msgid "Started"
+msgstr "Розпочато"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory__sub_location_ids
+msgid "Sub-Locations"
+msgstr "Підмісця"

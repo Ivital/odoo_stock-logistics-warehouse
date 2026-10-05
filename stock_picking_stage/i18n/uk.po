@@ -56,3 +56,13 @@ msgstr "Етап переміщення"
 #: model:ir.model.fields,field_description:stock_picking_stage.field_stock_picking__stage_id
 msgid "Stage"
 msgstr "Етап"
+
+#. module: stock_picking_stage
+#: model:ir.model.fields,field_description:stock_picking_stage.field_stock_picking_stage__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_picking_stage
+#: model:ir.model.fields,field_description:stock_picking_stage.field_stock_picking_stage__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

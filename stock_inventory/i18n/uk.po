@@ -115,3 +115,143 @@ msgstr "Стан"
 #: model_terms:ir.ui.view,arch_db:stock_inventory.view_stock_quant_search_not_done
 msgid "To Do"
 msgstr "Зробити"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__count_stock_quants
+msgid "# Adjustments"
+msgstr "Кількість коригувань"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__product_selection__all
+msgid "All Products"
+msgstr "Усі товари"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
+msgid "Back to Draft"
+msgstr "Повернути в чернетку"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_res_company__stock_inventory_auto_complete
+#: model:ir.model.fields,help:stock_inventory.field_res_config_settings__stock_inventory_auto_complete
+#: model_terms:ir.ui.view,arch_db:stock_inventory.res_config_settings_view_form
+msgid ""
+"If enabled, when all the quants prepared for the adjustment are done, the "
+"adjustment is automatically set to done."
+msgstr ""
+"Якщо увімкнено, коли всі кванти, підготовлені для коригування, виконано, "
+"коригування автоматично позначається виконаним."
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__state__in_progress
+msgid "In Progress"
+msgstr "У процесі"
+
+#. module: stock_inventory
+#: model:ir.actions.act_window,name:stock_inventory.action_view_inventory_group_form
+#: model:ir.model,name:stock_inventory.model_stock_inventory
+msgid "Inventory Adjustment Group"
+msgstr "Група коригування запасів"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__product_selection__lot
+msgid "Lot/Serial Number"
+msgstr "Партія/серійний номер"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__product_selection__manual
+msgid "Manual Selection"
+msgstr "Ручний вибір"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: stock_inventory
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__product_selection__one
+msgid "One Product"
+msgstr "Один товар"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__category_id
+#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__product_selection__category
+msgid "Product Category"
+msgstr "Категорія товару"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__products_under_review_ids
+#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_search_view
+msgid "Products Under Review"
+msgstr "Товари на перевірці"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
+msgid "Set to Done"
+msgstr "Позначити як виконане"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_quant__stock_inventory_ids
+msgid "Stock Inventories"
+msgstr "Інвентаризації запасів"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.res_config_settings_view_form
+msgid "Stock Inventory"
+msgstr "Інвентаризація запасів"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_res_company__stock_inventory_auto_complete
+#: model:ir.model.fields,field_description:stock_inventory.field_res_config_settings__stock_inventory_auto_complete
+msgid "Stock Inventory Auto Complete"
+msgstr "Автоматично завершувати інвентаризацію запасів"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"

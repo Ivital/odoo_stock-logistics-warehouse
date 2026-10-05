@@ -22,3 +22,8 @@ msgstr "Правило MTO"
 #: model:ir.model.fields,field_description:stock_mts_mto_rule.field_stock_rule__mts_rule_id
 msgid "MTS Rule"
 msgstr "Правило MTS"
+
+#. module: stock_mts_mto_rule
+#: model:ir.model.fields,field_description:stock_mts_mto_rule.field_stock_warehouse__mts_mto_rule_id
+msgid "MTO+MTS rule"
+msgstr "Правило MTO+MTS"

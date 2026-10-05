@@ -18,3 +18,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_volume.field_stock_picking__volume
 msgid "Volume"
 msgstr "Об’єм"
+
+#. module: stock_picking_volume
+#: model_terms:ir.ui.view,arch_db:stock_picking_volume.stock_picking_form_view
+msgid "Logistics"
+msgstr "Логістика"
+
+#. module: stock_picking_volume
+#: model:ir.model.fields,field_description:stock_picking_volume.field_stock_move__volume_uom_name
+#: model:ir.model.fields,field_description:stock_picking_volume.field_stock_picking__volume_uom_name
+msgid "Volume unit of measure label"
+msgstr "Мітка одиниці вимірювання об'єму"

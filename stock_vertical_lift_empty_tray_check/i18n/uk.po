@@ -27,3 +27,34 @@ msgstr "Створено"
 #: model:ir.model.fields,field_description:stock_vertical_lift_empty_tray_check.field_vertical_lift_operation_pick_zero_check__display_name
 msgid "Display Name"
 msgstr "Відображувана назва"
+
+#. module: stock_vertical_lift_empty_tray_check
+#: model:ir.model.fields,field_description:stock_vertical_lift_empty_tray_check.field_vertical_lift_operation_pick_zero_check__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_vertical_lift_empty_tray_check
+#: model:ir.model.fields,field_description:stock_vertical_lift_empty_tray_check.field_vertical_lift_operation_pick_zero_check__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_vertical_lift_empty_tray_check
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift_empty_tray_check.vertical_lift_operation_pick_zero_check_view_form
+msgid "Tray Empty"
+msgstr "Лоток порожній"
+
+#. module: stock_vertical_lift_empty_tray_check
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift_empty_tray_check.vertical_lift_operation_pick_zero_check_view_form
+msgid "Tray Not Empty"
+msgstr "Лоток не порожній"
+
+#. module: stock_vertical_lift_empty_tray_check
+#: model:ir.model,name:stock_vertical_lift_empty_tray_check.model_vertical_lift_operation_pick
+#: model:ir.model.fields,field_description:stock_vertical_lift_empty_tray_check.field_vertical_lift_operation_pick_zero_check__vertical_lift_operation_pick_id
+msgid "Vertical Lift Operation Pick"
+msgstr "Операція комплектування вертикального ліфта"
+
+#. module: stock_vertical_lift_empty_tray_check
+#: model:ir.model.fields,field_description:stock_vertical_lift_empty_tray_check.field_res_config_settings__vertical_lift_empty_tray_check
+msgid "Vertical lift: Check Empty Tray"
+msgstr "Вертикальний ліфт: перевірити порожній лоток"

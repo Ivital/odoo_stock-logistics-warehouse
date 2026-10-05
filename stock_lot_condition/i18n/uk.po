@@ -74,3 +74,23 @@ msgstr "Назва"
 #: model:ir.model.fields,field_description:stock_lot_condition.field_stock_lot_condition__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: stock_lot_condition
+#: model:ir.model.fields,field_description:stock_lot_condition.field_stock_lot__condition_note
+msgid "Condition Note"
+msgstr "Примітка до умови"
+
+#. module: stock_lot_condition
+#: model:ir.model.fields,field_description:stock_lot_condition.field_stock_lot_condition__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_lot_condition
+#: model:ir.model.fields,field_description:stock_lot_condition.field_stock_lot_condition__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_lot_condition
+#: model:ir.model.fields,field_description:stock_lot_condition.field_stock_lot_condition__required_note
+msgid "Required note?"
+msgstr "Примітка обов’язкова?"

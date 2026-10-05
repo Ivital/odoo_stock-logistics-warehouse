@@ -57,3 +57,20 @@ msgstr "Причина"
 #: model:ir.model.fields,field_description:stock_change_qty_reason.field_stock_quant_reason__name
 msgid "Reason Name"
 msgstr "Назва причини"
+
+#. module: stock_change_qty_reason
+#: model:ir.model.fields,field_description:stock_change_qty_reason.field_stock_quant_reason__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_change_qty_reason
+#: model:ir.model.fields,field_description:stock_change_qty_reason.field_stock_quant_reason__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_change_qty_reason
+#: model:ir.model.fields,field_description:stock_change_qty_reason.field_stock_move_line__preset_reason_id
+#: model:ir.model.fields,field_description:stock_change_qty_reason.field_stock_quant__preset_reason_id
+#: model_terms:ir.ui.view,arch_db:stock_change_qty_reason.view_preset_reason
+msgid "Preset Reason"
+msgstr "Задана причина"

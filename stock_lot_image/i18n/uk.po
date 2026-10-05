@@ -84,3 +84,23 @@ msgstr "Послідовність"
 #: model_terms:ir.ui.view,arch_db:stock_lot_image.stock_lot_image_view_form
 msgid "Video URL"
 msgstr "URL відео"
+
+#. module: stock_lot_image
+#: model_terms:ir.ui.view,arch_db:stock_lot_image.view_production_lot_form
+msgid "Add Media"
+msgstr "Додати медіа"
+
+#. module: stock_lot_image
+#: model_terms:ir.ui.view,arch_db:stock_lot_image.stock_lot_image_view_form
+msgid "Image Name"
+msgstr "Назва зображення"
+
+#. module: stock_lot_image
+#: model:ir.model.fields,field_description:stock_lot_image.field_stock_lot_image__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_lot_image
+#: model:ir.model.fields,field_description:stock_lot_image.field_stock_lot_image__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

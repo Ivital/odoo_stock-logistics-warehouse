@@ -270,3 +270,216 @@ msgstr "Використовувати TLS"
 #: model:ir.ui.menu,name:stock_vertical_lift.vertical_lift_shuttle
 msgid "Vertical Lift Shuttles"
 msgstr "Шатли вертикального підйомника"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_shuttle_form_menu
+msgid "Back to settings"
+msgstr "Назад до налаштувань"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_base_screen_view
+msgid "Barcode Input"
+msgstr "Введення штрихкоду"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_base___barcode_scanned
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_inventory___barcode_scanned
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_pick___barcode_scanned
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_put___barcode_scanned
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_transfer___barcode_scanned
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_shuttle___barcode_scanned
+msgid "Barcode Scanned"
+msgstr "Штрихкод відскановано"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_inventory__product_qty
+msgid "Counted Quantity"
+msgstr "Підрахована кількість"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_pick__current_move_line_id
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_put__current_move_line_id
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_transfer__current_move_line_id
+msgid "Current Move Line"
+msgstr "Поточний рядок переміщення"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_inventory__quant_id
+msgid "Current Quant"
+msgstr "Поточний квант"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_base_screen_view
+msgid "Dropdown menu"
+msgstr "Випадне меню"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_inventory_button_view
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_inventory_screen_view
+msgid "Inventory Screen"
+msgstr "Екран інвентаризації"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_command__write_uid
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_inventory__write_uid
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_pick__write_uid
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_put__write_uid
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_shuttle__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_command__write_date
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_inventory__write_date
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_pick__write_date
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_put__write_date
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_shuttle__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_inventory__lot_id
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_pick__lot_id
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_put__lot_id
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_transfer__lot_id
+msgid "Lot/Serial Number"
+msgstr "Партія/серійний номер"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_shuttle_view_kanban
+msgid "Mode:"
+msgstr "Режим:"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_shuttle_view_form
+msgid "Network"
+msgstr "Мережа"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_base__number_of_ops
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_inventory__number_of_ops
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_pick__number_of_ops
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_put__number_of_ops
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_transfer__number_of_ops
+msgid "Number of Operations"
+msgstr "Кількість операцій"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_base__number_of_ops_all
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_inventory__number_of_ops_all
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_pick__number_of_ops_all
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_put__number_of_ops_all
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_transfer__number_of_ops_all
+msgid "Number of Operations in all shuttles"
+msgstr "Кількість операцій у всіх шатлах"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_pick_button_view
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_pick_screen_view
+msgid "Pick Screen"
+msgstr "Екран комплектування"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields.selection,name:stock_vertical_lift.selection__vertical_lift_shuttle__mode__put
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_shuttle_form_menu
+msgid "Put"
+msgstr "Покласти"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_put_button_view
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_put_screen_view
+msgid "Put-Away Screen"
+msgstr "Екран розміщення"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_inventory__quantity_input
+msgid "Quantity Input"
+msgstr "Введена кількість"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_base_screen_view
+msgid "Release"
+msgstr "Вивільнити"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_shuttle_view_form
+msgid "Release tray"
+msgstr "Вивільнити лоток"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_base_button_view
+msgid "Reopen Screen"
+msgstr "Повторно відкрити екран"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_base_screen_view
+msgid "Save"
+msgstr "Зберегти"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_base_screen_view
+msgid "Save & Release"
+msgstr "Зберегти й звільнити"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_res_config_settings__vertical_lift_secret
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.res_config_settings_view_form
+msgid "Secret for Vertical Lift API"
+msgstr "Секрет API вертикального ліфта"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_shuttle_view_form
+msgid "Shuttle Name"
+msgstr "Назва шатла"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.vertical_lift_operation_pick_screen_view
+msgid "Skip"
+msgstr "Пропустити"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_pick__picking_origin
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_put__picking_origin
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_transfer__picking_origin
+msgid "Source Document"
+msgstr "Вихідний документ"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_inventory__tray_qty
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_pick__tray_qty
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_put__tray_qty
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_transfer__tray_qty
+msgid "Stock Quantity"
+msgstr "Кількість на складі"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_inventory__tray_location_id
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_pick__tray_location_id
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_put__tray_location_id
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_transfer__tray_location_id
+msgid "Tray Location"
+msgstr "Місце лотка"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_inventory__product_uom_id
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_pick__product_uom_id
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_put__product_uom_id
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_vertical_lift_operation_transfer__product_uom_id
+msgid "Unit of Measure"
+msgstr "Одиниця вимірювання"
+
+#. module: stock_vertical_lift
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift.res_config_settings_view_form
+msgid "Vertical Lift"
+msgstr "Вертикальний підйомник"
+
+#. module: stock_vertical_lift
+#: model:ir.model,name:stock_vertical_lift.model_vertical_lift_shuttle
+#: model:ir.model.fields,field_description:stock_vertical_lift.field_stock_location__vertical_lift_shuttle_id
+msgid "Vertical Lift Shuttle"
+msgstr "Шатл вертикального ліфта"
+
+#. module: stock_vertical_lift
+#: model:ir.model.fields.selection,name:stock_vertical_lift.selection__stock_location__vertical_lift_kind__view
+msgid "View"
+msgstr "Перегляд"

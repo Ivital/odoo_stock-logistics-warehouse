@@ -120,3 +120,64 @@ msgstr "Тип лотка"
 #: model:ir.model.fields,field_description:stock_location_tray.field_stock_location_tray_type__width
 msgid "Width"
 msgstr "Ширина"
+
+#. module: stock_location_tray
+#: model_terms:ir.actions.act_window,help:stock_location_tray.action_stock_location_tray_type
+msgid "Add a Location Tray Type"
+msgstr "Додати тип лотка місця"
+
+#. module: stock_location_tray
+#: model:ir.model.fields,field_description:stock_location_tray.field_stock_location__cell_in_tray_type_id
+msgid "Cell Tray Type"
+msgstr "Тип коміркового лотка"
+
+#. module: stock_location_tray
+#: model_terms:ir.ui.view,arch_db:stock_location_tray.view_stock_move_line_tray
+msgid "Close"
+msgstr "Закрити"
+
+#. module: stock_location_tray
+#: model:ir.model.fields,field_description:stock_location_tray.field_stock_location_tray_type__depth_per_cell
+msgid "Depth Per Cell"
+msgstr "Глибина на комірку"
+
+#. module: stock_location_tray
+#: model:ir.model.fields,field_description:stock_location_tray.field_stock_move_line__tray_dest_matrix
+msgid "Destination Cell"
+msgstr "Комірка призначення"
+
+#. module: stock_location_tray
+#: model_terms:ir.ui.view,arch_db:stock_location_tray.view_stock_location_tray_type_form
+msgid "Disposition"
+msgstr "Розпорядження"
+
+#. module: stock_location_tray
+#: model:ir.model.fields,field_description:stock_location_tray.field_stock_location_tray_type__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_location_tray
+#: model:ir.model.fields,field_description:stock_location_tray.field_stock_location_tray_type__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_location_tray
+#: model_terms:ir.ui.view,arch_db:stock_location_tray.view_stock_location_tray_type_form
+#: model_terms:ir.ui.view,arch_db:stock_location_tray.view_stock_location_tray_type_search
+msgid "Location Tray Type"
+msgstr "Тип лотка місця"
+
+#. module: stock_location_tray
+#: model_terms:ir.ui.view,arch_db:stock_location_tray.view_stock_location_tray_type_form
+msgid "Tray Configuration"
+msgstr "Конфігурація лотка"
+
+#. module: stock_location_tray
+#: model:ir.model.fields,field_description:stock_location_tray.field_stock_location_tray_type__width_per_cell
+msgid "Width Per Cell"
+msgstr "Ширина на комірку"
+
+#. module: stock_location_tray
+#: model_terms:ir.ui.view,arch_db:stock_location_tray.view_stock_location_tray_type_form
+msgid "mm per cell"
+msgstr "мм на комірку"

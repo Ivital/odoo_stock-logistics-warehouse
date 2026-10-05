@@ -18,3 +18,33 @@ msgstr "Отримує кількості товару в додатковій �
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move_line__secondary_uom_id
 msgid "Second unit"
 msgstr "Друга одиниця"
+
+#. module: stock_secondary_unit
+#: model_terms:ir.ui.view,arch_db:stock_secondary_unit.product_form_view_procurement_button
+#: model_terms:ir.ui.view,arch_db:stock_secondary_unit.product_template_form_view_procurement_button
+msgid "<span class=\"o_stat_text\">Secondary Unit</span>"
+msgstr "<span class=\"o_stat_text\">Вторинна одиниця</span>"
+
+#. module: stock_secondary_unit
+#: model:ir.model.fields,field_description:stock_secondary_unit.field_product_product__secondary_unit_qty_available
+#: model:ir.model.fields,field_description:stock_secondary_unit.field_product_template__secondary_unit_qty_available
+#: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_product_secondary_unit_mixin__secondary_unit_qty_available
+msgid "Quantity On Hand (2Unit)"
+msgstr "Кількість у наявності (2 од.)"
+
+#. module: stock_secondary_unit
+#: model:ir.model.fields,field_description:stock_secondary_unit.field_product_product__stock_secondary_uom_id
+#: model:ir.model.fields,field_description:stock_secondary_unit.field_product_template__stock_secondary_uom_id
+msgid "Second unit for inventory"
+msgstr "Друга одиниця для інвентаризації"
+
+#. module: stock_secondary_unit
+#: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move__secondary_uom_qty
+#: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move_line__secondary_uom_qty
+msgid "Secondary Qty"
+msgstr "Вторинна кількість"
+
+#. module: stock_secondary_unit
+#: model_terms:ir.ui.view,arch_db:stock_secondary_unit.view_template_property_form
+msgid "Secondary unit"
+msgstr "Вторинна одиниця"

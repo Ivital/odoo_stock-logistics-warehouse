@@ -17,3 +17,10 @@ msgstr "Калькулятор складського пакування"
 #: model:ir.module.module,summary:base.module_stock_product_qty_by_packaging
 msgid "Compute product quantity to pick by packaging"
 msgstr "Обчислює кількість товару для комплектування за пакуванням"
+
+#. module: stock_product_qty_by_packaging
+#: model:ir.model.fields,field_description:stock_product_qty_by_packaging.field_stock_move__product_qty_by_packaging_display
+#: model:ir.model.fields,field_description:stock_product_qty_by_packaging.field_stock_move_line__product_qty_by_packaging_display
+#: model:ir.model.fields,field_description:stock_product_qty_by_packaging.field_stock_quant__product_qty_by_packaging_display
+msgid "Qty by packaging"
+msgstr "Кількість за пакуванням"

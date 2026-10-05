@@ -17,3 +17,49 @@ msgstr ""
 #: model:ir.model.fields.selection,name:stock_location_zone.selection__stock_location__location_kind__zone
 msgid "Zone"
 msgstr "Зона"
+
+#. module: stock_location_zone
+#: model:ir.model.fields.selection,name:stock_location_zone.selection__stock_location__location_kind__area
+msgid "Area"
+msgstr "Площа"
+
+#. module: stock_location_zone
+#: model_terms:ir.ui.view,arch_db:stock_location_zone.view_location_search
+msgid "Area location"
+msgstr "Розташування області"
+
+#. module: stock_location_zone
+#: model_terms:ir.ui.view,arch_db:stock_location_zone.view_location_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: stock_location_zone
+#: model:ir.model.fields,field_description:stock_location_zone.field_stock_location__area_location_id
+msgid "Location Area"
+msgstr "Зона місця"
+
+#. module: stock_location_zone
+#: model:ir.model.fields,field_description:stock_location_zone.field_stock_location__location_kind
+#: model_terms:ir.ui.view,arch_db:stock_location_zone.view_location_search
+msgid "Location Kind"
+msgstr "Тип місця"
+
+#. module: stock_location_zone
+#: model:ir.model.fields,field_description:stock_location_zone.field_stock_location__zone_location_id
+msgid "Location Zone"
+msgstr "Зона місця"
+
+#. module: stock_location_zone
+#: model:ir.model.fields.selection,name:stock_location_zone.selection__stock_location__location_kind__stock
+msgid "Main Stock"
+msgstr "Основний склад"
+
+#. module: stock_location_zone
+#: model:ir.model.fields.selection,name:stock_location_zone.selection__stock_location__location_kind__other
+msgid "Other"
+msgstr "Інше"
+
+#. module: stock_location_zone
+#: model_terms:ir.ui.view,arch_db:stock_location_zone.view_location_search
+msgid "Zone location"
+msgstr "Місце зони"

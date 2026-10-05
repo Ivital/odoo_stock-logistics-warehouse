@@ -40,3 +40,23 @@ msgstr "Розташування"
 #: model_terms:ir.ui.view,arch_db:stock_location_empty.view_location_search_empty_2
 msgid "Vendor"
 msgstr "Постачальник"
+
+#. module: stock_location_empty
+#: model_terms:ir.ui.view,arch_db:stock_location_empty.view_location_search_empty_2
+msgid "Internal"
+msgstr "Внутрішній"
+
+#. module: stock_location_empty
+#: model_terms:ir.ui.view,arch_db:stock_location_empty.view_location_search_empty_2
+msgid "Parent Location"
+msgstr "Батьківське місце"
+
+#. module: stock_location_empty
+#: model:ir.model.fields,field_description:stock_location_empty.field_stock_location__stock_amount
+msgid "Stock Amount"
+msgstr "Сума запасів"
+
+#. module: stock_location_empty
+#: model_terms:ir.ui.view,arch_db:stock_location_empty.view_location_search_empty_2
+msgid "Stock Locations"
+msgstr "Місця зберігання"

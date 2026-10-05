@@ -18,3 +18,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_line_stock_info.field_account_move_line__stock_move_id
 msgid "Stock Move"
 msgstr "Складське переміщення"
+
+#. module: account_move_line_stock_info
+#: model:ir.model.fields,field_description:account_move_line_stock_info.field_stock_move__account_move_line_ids
+msgid "Account Move Line"
+msgstr "Рядок бухгалтерського проведення"
+
+#. module: account_move_line_stock_info
+#: model_terms:ir.ui.view,arch_db:account_move_line_stock_info.view_move_form
+#: model_terms:ir.ui.view,arch_db:account_move_line_stock_info.view_stock_move_operations
+msgid "Journal Items"
+msgstr "Проведення журналу"

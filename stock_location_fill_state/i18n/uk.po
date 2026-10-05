@@ -24,3 +24,21 @@ msgstr "Порожній"
 #: model_terms:ir.ui.view,arch_db:stock_location_fill_state.stock_location_form_view
 msgid "Fill State"
 msgstr "Стан заповнення"
+
+#. module: stock_location_fill_state
+#: model:ir.model.fields.selection,name:stock_location_fill_state.selection__stock_location__fill_state__being_emptied
+#: model_terms:ir.ui.view,arch_db:stock_location_fill_state.stock_location_search_view
+msgid "Being Emptied"
+msgstr "Спорожнюється"
+
+#. module: stock_location_fill_state
+#: model:ir.model.fields.selection,name:stock_location_fill_state.selection__stock_location__fill_state__being_filled
+#: model_terms:ir.ui.view,arch_db:stock_location_fill_state.stock_location_search_view
+msgid "Being Filled"
+msgstr "Заповнюється"
+
+#. module: stock_location_fill_state
+#: model:ir.model.fields.selection,name:stock_location_fill_state.selection__stock_location__fill_state__filled
+#: model_terms:ir.ui.view,arch_db:stock_location_fill_state.stock_location_search_view
+msgid "Filled"
+msgstr "Заповнено"

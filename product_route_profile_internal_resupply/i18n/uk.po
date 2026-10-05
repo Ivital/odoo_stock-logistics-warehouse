@@ -1,0 +1,30 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 10:13+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: product_route_profile_internal_resupply
+#: model:ir.model.fields,field_description:product_route_profile_internal_resupply.field_stock_route__internal_supply
+msgid "Internal Supply"
+msgstr "Внутрішнє постачання"
+
+#. module: product_route_profile_internal_resupply
+#: model:ir.model,name:product_route_profile_internal_resupply.model_route_profile
+msgid "Route Profile"
+msgstr "Профіль маршруту"
+
+#. module: product_route_profile_internal_resupply
+#: model:ir.model.fields,field_description:product_route_profile_internal_resupply.field_product_product__internal_supply_ids
+#: model:ir.model.fields,field_description:product_route_profile_internal_resupply.field_product_template__internal_supply_ids
+msgid "internal Supplies"
+msgstr "Внутрішні поставки"

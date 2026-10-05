@@ -17,3 +17,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_package_type_volume.field_stock_package_type__volume
 msgid "Volume"
 msgstr "Об’єм"
+
+#. module: stock_package_type_volume
+#: model:ir.model.fields,field_description:stock_package_type_volume.field_stock_package_type__volume_uom_id
+msgid "Volume Units of Measure"
+msgstr "Одиниці вимірювання об'єму"
+
+#. module: stock_package_type_volume
+#: model:ir.model.fields,field_description:stock_package_type_volume.field_stock_package_type__volume_uom_name
+msgid "Volume Uom Name"
+msgstr "Назва одиниці об’єму"

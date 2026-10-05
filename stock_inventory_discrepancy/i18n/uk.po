@@ -27,3 +27,56 @@ msgstr "Створено"
 #: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_confirm_discrepancy_wiz__display_name
 msgid "Display Name"
 msgstr "Відображувана назва"
+
+#. module: stock_inventory_discrepancy
+#: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.confirm_discrepancy_wizard
+msgid "Apply"
+msgstr "Застосувати"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,help:stock_inventory_discrepancy.field_res_company__inventory_discrepancy_enable
+#: model:ir.model.fields,help:stock_inventory_discrepancy.field_res_config_settings__inventory_discrepancy_enable
+#: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.view_stock_config_settings
+msgid ""
+"Block validation of the inventory adjustment if discrepancy exceeds the "
+"threshold."
+msgstr ""
+"Блокувати перевірку коригування запасів, якщо розбіжність перевищує поріг."
+
+#. module: stock_inventory_discrepancy
+#: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.confirm_discrepancy_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_inventory_discrepancy
+#: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.confirm_discrepancy_wizard
+msgid "Dates does not match"
+msgstr "Дати не збігаються"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_res_company__inventory_discrepancy_enable
+#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_res_config_settings__inventory_discrepancy_enable
+msgid "Inventory Discrepancy Control"
+msgstr "Контроль розбіжностей інвентаризації"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_confirm_discrepancy_wiz__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_confirm_discrepancy_wiz__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_stock_location__discrepancy_threshold
+#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_stock_warehouse__discrepancy_threshold
+#: model:ir.model.fields,help:stock_inventory_discrepancy.field_stock_quant__discrepancy_threshold
+msgid "Maximum Discrepancy Rate Threshold"
+msgstr "Максимальний поріг рівня розбіжності"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_stock_quant__discrepancy_threshold
+msgid "Threshold (%)"
+msgstr "Поріг (%)"

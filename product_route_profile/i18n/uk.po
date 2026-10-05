@@ -51,3 +51,31 @@ msgstr "Маршрути"
 #: model_terms:ir.ui.view,arch_db:product_route_profile.route_profile_form
 msgid "Routes Profiles"
 msgstr "Профілі маршрутів"
+
+#. module: product_route_profile
+#: model:ir.model.fields,field_description:product_route_profile.field_route_profile__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_route_profile
+#: model:ir.model.fields,field_description:product_route_profile.field_route_profile__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_route_profile
+#: model:ir.model.fields,field_description:product_route_profile.field_product_product__force_route_profile_id
+#: model:ir.model.fields,field_description:product_route_profile.field_product_template__force_route_profile_id
+msgid "Priority Route Profile"
+msgstr "Профіль пріоритетного маршруту"
+
+#. module: product_route_profile
+#: model:ir.model,name:product_route_profile.model_route_profile
+#: model:ir.model.fields,field_description:product_route_profile.field_product_product__route_profile_id
+#: model:ir.model.fields,field_description:product_route_profile.field_product_template__route_profile_id
+msgid "Route Profile"
+msgstr "Профіль маршруту"
+
+#. module: product_route_profile
+#: model:ir.model.fields,field_description:product_route_profile.field_stock_route__route_profile_ids
+msgid "Route Profiles"
+msgstr "Профілі маршрутів"

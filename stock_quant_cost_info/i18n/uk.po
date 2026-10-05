@@ -17,3 +17,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_quant_cost_info.view_stock_quant_tree_inventory_editable
 msgid "Total"
 msgstr "Разом"
+
+#. module: stock_quant_cost_info
+#: model:ir.model.fields,field_description:stock_quant_cost_info.field_stock_quant__adjustment_cost
+#: model_terms:ir.ui.view,arch_db:stock_quant_cost_info.report_inventory_cost_info
+#: model_terms:ir.ui.view,arch_db:stock_quant_cost_info.view_stock_quant_tree_inventory_editable
+msgid "Adjustment Cost"
+msgstr "Вартість коригування"

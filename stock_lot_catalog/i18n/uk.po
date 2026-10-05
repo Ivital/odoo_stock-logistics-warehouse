@@ -28,3 +28,31 @@ msgstr "Розташування"
 #: model_terms:ir.ui.view,arch_db:stock_lot_catalog.lot_view_search_catalog
 msgid "Lot"
 msgstr "Партія"
+
+#. module: stock_lot_catalog
+#. odoo-javascript
+#: code:addons/stock_lot_catalog/static/src/stock_lot_catalog/order_line/order_line.xml:0
+msgid "Add"
+msgstr "Додати"
+
+#. module: stock_lot_catalog
+#: model:ir.model.fields,field_description:stock_lot_catalog.field_stock_lot__product_template_attribute_value_ids
+msgid "Attribute Values"
+msgstr "Значення атрибутів"
+
+#. module: stock_lot_catalog
+#: model_terms:ir.ui.view,arch_db:stock_lot_catalog.lot_view_search_catalog
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: stock_lot_catalog
+#. odoo-python
+#: code:addons/stock_lot_catalog/models/stock_lot_catalog_mixin.py:0
+msgid "Lots"
+msgstr "Партії"
+
+#. module: stock_lot_catalog
+#. odoo-javascript
+#: code:addons/stock_lot_catalog/static/src/stock_lot_catalog/order_line/order_line.xml:0
+msgid "Remove"
+msgstr "Видалити"
