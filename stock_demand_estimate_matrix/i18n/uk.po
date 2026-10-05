@@ -186,3 +186,18 @@ msgstr "Підтвердити"
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate_matrix.stock_demand_estimate_sheet_view_form
 msgid "to"
 msgstr "до"
+
+#. module: stock_demand_estimate_matrix
+#: model:ir.model.fields,field_description:stock_demand_estimate_matrix.field_date_range__days
+msgid "Days between dates"
+msgstr "Днів між датами"
+
+#. module: stock_demand_estimate_matrix
+#: model_terms:ir.ui.view,arch_db:stock_demand_estimate_matrix.stock_demand_estimate_sheet_view_form
+msgid "Estimated quantity"
+msgstr "Орієнтовна кількість"
+
+#. module: stock_demand_estimate_matrix
+#: model:ir.model.fields,field_description:stock_demand_estimate_matrix.field_stock_demand_estimate__date_range_id
+msgid "Estimating Period"
+msgstr "Період оцінювання"

@@ -56,3 +56,8 @@ msgstr "Партії"
 #: code:addons/stock_lot_catalog/static/src/stock_lot_catalog/order_line/order_line.xml:0
 msgid "Remove"
 msgstr "Видалити"
+
+#. module: stock_lot_catalog
+#: model:ir.model.fields,field_description:stock_lot_catalog.field_stock_lot__product_image_128
+msgid "Product Image 128"
+msgstr "Зображення товару 128"

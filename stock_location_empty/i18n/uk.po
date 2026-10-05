@@ -60,3 +60,18 @@ msgstr "Сума запасів"
 #: model_terms:ir.ui.view,arch_db:stock_location_empty.view_location_search_empty_2
 msgid "Stock Locations"
 msgstr "Місця зберігання"
+
+#. module: stock_location_empty
+#: model_terms:ir.ui.view,arch_db:stock_location_empty.view_location_search_empty_2
+msgid "Customer Locations"
+msgstr "Місця клієнта"
+
+#. module: stock_location_empty
+#: model_terms:ir.ui.view,arch_db:stock_location_empty.view_location_search_empty_2
+msgid "Internal Locations"
+msgstr "Внутрішні місця"
+
+#. module: stock_location_empty
+#: model_terms:ir.ui.view,arch_db:stock_location_empty.view_location_search_empty_2
+msgid "Vendor Locations"
+msgstr "Місця постачальника"

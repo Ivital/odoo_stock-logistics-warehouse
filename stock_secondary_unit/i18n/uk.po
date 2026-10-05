@@ -48,3 +48,8 @@ msgstr "Вторинна кількість"
 #: model_terms:ir.ui.view,arch_db:stock_secondary_unit.view_template_property_form
 msgid "Secondary unit"
 msgstr "Вторинна одиниця"
+
+#. module: stock_secondary_unit
+#: model_terms:ir.ui.view,arch_db:stock_secondary_unit.report_delivery_document
+msgid "<strong>Secondary Qty</strong>"
+msgstr "<strong>Вторинна кількість</strong>"

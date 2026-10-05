@@ -18,3 +18,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_location_children.stock_location_form_view
 msgid "Children"
 msgstr "Дочірні"
+
+#. module: stock_location_children
+#: model_terms:ir.ui.view,arch_db:stock_location_children.stock_location_form_view
+msgid "These are the children locations of the current one."
+msgstr "Це дочірні місця поточного місця."

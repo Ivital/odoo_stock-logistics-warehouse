@@ -58,3 +58,29 @@ msgstr "Операція комплектування вертикального
 #: model:ir.model.fields,field_description:stock_vertical_lift_empty_tray_check.field_res_config_settings__vertical_lift_empty_tray_check
 msgid "Vertical lift: Check Empty Tray"
 msgstr "Вертикальний ліфт: перевірити порожній лоток"
+
+#. module: stock_vertical_lift_empty_tray_check
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift_empty_tray_check.res_config_settings_view_form
+msgid "Enable check empty vertical lift tray"
+msgstr "Увімкнути перевірку порожнього лотка вертикального підйомника"
+
+#. module: stock_vertical_lift_empty_tray_check
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift_empty_tray_check.res_config_settings_view_form
+msgid ""
+"If checked and the system thinks the vertical tray is\n"
+"                                empty, the operator will be asked to explicitly check\n"
+"                                if this is the case or not"
+msgstr ""
+"Якщо позначено і система вважає, що вертикальний лоток\n"
+"                                порожній, оператору буде запропоновано явно перевірити,\n"
+"                                чи це справді так"
+
+#. module: stock_vertical_lift_empty_tray_check
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift_empty_tray_check.vertical_lift_operation_pick_zero_check_view_form
+msgid "Is the tray empty?"
+msgstr "Лоток порожній?"
+
+#. module: stock_vertical_lift_empty_tray_check
+#: model_terms:ir.ui.view,arch_db:stock_vertical_lift_empty_tray_check.res_config_settings_view_form
+msgid "Operator will verify when system detects an empty vertical tray"
+msgstr "Оператор перевірить, коли система виявить порожній вертикальний лоток"

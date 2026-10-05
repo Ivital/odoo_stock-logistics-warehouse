@@ -74,3 +74,29 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:stock_change_qty_reason.view_preset_reason
 msgid "Preset Reason"
 msgstr "Задана причина"
+
+#. module: stock_change_qty_reason
+#: model_terms:ir.ui.view,arch_db:stock_change_qty_reason.view_preset_reason
+msgid ""
+"<span class=\"o_form_label\">\n"
+"                                Active\n"
+"                            </span>"
+msgstr ""
+"<span class=\"o_form_label\">\n"
+"                                Активний\n"
+"                            </span>"
+
+#. module: stock_change_qty_reason
+#: model_terms:ir.ui.view,arch_db:stock_change_qty_reason.qty_reason_preset_selection
+msgid "Manage predefined change quantity reasons"
+msgstr "Керувати визначеними причинами зміни кількості"
+
+#. module: stock_change_qty_reason
+#: model:ir.model.fields,field_description:stock_change_qty_reason.field_res_config_settings__group_qty_reason_preset
+msgid "Preset Change Qty Reason"
+msgstr "Задана причина зміни кількості"
+
+#. module: stock_change_qty_reason
+#: model:ir.model.fields,field_description:stock_change_qty_reason.field_stock_quant_reason__description
+msgid "Reason Description"
+msgstr "Опис причини"

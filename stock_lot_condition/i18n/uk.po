@@ -94,3 +94,8 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:stock_lot_condition.field_stock_lot_condition__required_note
 msgid "Required note?"
 msgstr "Примітка обов’язкова?"
+
+#. module: stock_lot_condition
+#: model:ir.model.fields,field_description:stock_lot_condition.field_stock_lot__condition_required_note
+msgid "Condition Required Note"
+msgstr "Примітка, обов’язкова за умовою"

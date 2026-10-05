@@ -255,3 +255,83 @@ msgstr "Автоматично завершувати інвентаризаці
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__action_state_to_cancel_allowed
+msgid "Action State To Cancel Allowed"
+msgstr "Дозволено стан дії для скасування"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.res_config_settings_view_form
+msgid "Auto Complete Inventory Adjustment"
+msgstr "Автоматично завершувати коригування запасів"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
+msgid "Begin Adjustments"
+msgstr "Почати коригування"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_quant__current_inventory_id
+msgid "Current Inventory"
+msgstr "Поточний запас"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__exclude_sublocation
+msgid "Exclude Sublocation"
+msgstr "Виключити підмісце"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__stock_move_ids
+msgid "Inventory Adjustments Done"
+msgstr "Коригування запасів завершено"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__name
+msgid "Inventory Reference"
+msgstr "Посилання на інвентаризацію"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__lot_ids
+msgid "Lot/Serial Numbers"
+msgstr "Номери партій/серійні номери"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: stock_inventory
+#: model:ir.actions.act_window,name:stock_inventory.action_view_stock_move_line_inventory_tree
+msgid "Stock Move Lines"
+msgstr "Рядки руху запасів"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__count_stock_moves
+msgid "Stock Moves Lines"
+msgstr "Рядки рухів запасів"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
+msgid "e.g. Annual inventory"
+msgstr "напр. Щорічна інвентаризація"

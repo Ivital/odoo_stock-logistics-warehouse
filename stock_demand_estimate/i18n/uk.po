@@ -27,7 +27,7 @@ msgstr "Активний"
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
 msgid "All (Active/Inactive)"
-msgstr ""
+msgstr "Усі (активні/неактивні)"
 
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_form
@@ -86,7 +86,7 @@ msgstr "Тривалість"
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__duration
 msgid "Duration (computed))"
-msgstr ""
+msgstr "Тривалість (обчислена)"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,help:stock_demand_estimate.field_stock_demand_estimate__manual_duration
@@ -153,7 +153,7 @@ msgstr "Кількість"
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__product_qty
 msgid "Quantity (Product UoM)"
-msgstr ""
+msgstr "Кількість (од. виміру товару)"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__daily_qty
@@ -163,17 +163,17 @@ msgstr "Кількість / день"
 #. module: stock_demand_estimate
 #: model:ir.model.fields,help:stock_demand_estimate.field_stock_demand_estimate__product_qty
 msgid "Quantity in the default UoM of the product"
-msgstr ""
+msgstr "Кількість у типовій одиниці вимірювання товару"
 
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
 msgid "Search Stock Demand Estimates"
-msgstr ""
+msgstr "Пошук оцінок попиту на запас"
 
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_pivot
 msgid "Stock Demand Estimate"
-msgstr ""
+msgstr "Оцінка попиту на запаси"
 
 #. module: stock_demand_estimate
 #: model:ir.model,name:stock_demand_estimate.model_stock_demand_estimate

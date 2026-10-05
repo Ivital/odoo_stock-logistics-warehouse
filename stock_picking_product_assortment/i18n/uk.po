@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_product_assortment.field_stock_picking__has_assortment
 msgid "Has Assortment"
 msgstr "Має асортимент"
+
+#. module: stock_picking_product_assortment
+#: model:ir.model.fields,field_description:stock_picking_product_assortment.field_stock_picking__assortment_product_ids
+msgid "Assortment Products"
+msgstr "Товари асортименту"

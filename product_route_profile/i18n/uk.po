@@ -79,3 +79,19 @@ msgstr "Профіль маршруту"
 #: model:ir.model.fields,field_description:product_route_profile.field_stock_route__route_profile_ids
 msgid "Route Profiles"
 msgstr "Профілі маршрутів"
+
+#. module: product_route_profile
+#: model:ir.model.fields,field_description:product_route_profile.field_route_profile__product_ids
+msgid "Products (default)"
+msgstr "Товари (за замовчуванням)"
+
+#. module: product_route_profile
+#: model_terms:ir.actions.act_window,help:product_route_profile.action_route_profile_form
+msgid ""
+"You can define here the routes profiles that run through\n"
+"                your warehouses and that define the flows of your products.\n"
+"                A route profile can be set on each product as \"Route Profile\" or \"Priority Route Profile\" (company dependent)."
+msgstr ""
+"Тут можна визначити профілі маршрутів, що проходять через\n"
+"                ваші склади та визначають потоки товарів.\n"
+"                Профіль маршруту можна встановити для кожного товару як «Профіль маршруту» або «Пріоритетний профіль маршруту» (залежить від компанії)."

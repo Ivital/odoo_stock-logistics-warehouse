@@ -17,3 +17,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_warehouse_security.view_users_form
 msgid "Multi Warehouse"
 msgstr "Кілька складів"
+
+#. module: stock_warehouse_security
+#: model:ir.model.fields,field_description:stock_warehouse_security.field_res_users__warehouse_ids
+msgid "Allowed Warehouses"
+msgstr "Дозволені склади"

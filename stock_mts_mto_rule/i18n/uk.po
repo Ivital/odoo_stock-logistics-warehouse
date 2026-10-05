@@ -27,3 +27,13 @@ msgstr "Правило MTS"
 #: model:ir.model.fields,field_description:stock_mts_mto_rule.field_stock_warehouse__mts_mto_rule_id
 msgid "MTO+MTS rule"
 msgstr "Правило MTO+MTS"
+
+#. module: stock_mts_mto_rule
+#: model:ir.model.fields.selection,name:stock_mts_mto_rule.selection__stock_rule__action__split_procurement
+msgid "Choose between MTS and MTO"
+msgstr "Виберіть між MTS і MTO"
+
+#. module: stock_mts_mto_rule
+#: model:ir.model.fields,field_description:stock_mts_mto_rule.field_stock_warehouse__mto_mts_management
+msgid "Use MTO+MTS rules"
+msgstr "Використовувати правила MTO+MTS"

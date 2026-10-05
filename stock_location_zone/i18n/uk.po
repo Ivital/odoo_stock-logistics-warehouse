@@ -63,3 +63,8 @@ msgstr "Інше"
 #: model_terms:ir.ui.view,arch_db:stock_location_zone.view_location_search
 msgid "Zone location"
 msgstr "Місце зони"
+
+#. module: stock_location_zone
+#: model:ir.model.fields,field_description:stock_location_zone.field_stock_location__is_zone
+msgid "Is a Zone Location?"
+msgstr "Це зональне місце?"

@@ -21,3 +21,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_removal_location_by_priority.view_stock_config_settings
 msgid "Removal Priority"
 msgstr "Пріоритет видалення"
+
+#. module: stock_removal_location_by_priority
+#: model_terms:ir.ui.view,arch_db:stock_removal_location_by_priority.view_stock_config_settings
+msgid "Use <i>Removal Priority</i> in Locations"
+msgstr "Використовувати <i>Пріоритет вилучення</i> у місцях"

@@ -26,7 +26,7 @@ msgstr "Домен"
 #. module: stock_inventory_preparation_filter
 #: model:ir.model.fields.selection,name:stock_inventory_preparation_filter.selection__stock_inventory__product_selection__domain
 msgid "Filtered Products"
-msgstr ""
+msgstr "Відфільтровані товари"
 
 #. module: stock_inventory_preparation_filter
 #: model:ir.model,name:stock_inventory_preparation_filter.model_stock_inventory
@@ -36,7 +36,7 @@ msgstr ""
 #. module: stock_inventory_preparation_filter
 #: model:ir.model.fields,field_description:stock_inventory_preparation_filter.field_stock_inventory__product_selection
 msgid "Product Selection"
-msgstr ""
+msgstr "Вибір товару"
 
 #~ msgid "Created by"
 #~ msgstr "Створив"

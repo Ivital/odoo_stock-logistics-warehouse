@@ -22,3 +22,13 @@ msgstr "Найближчий"
 #: model:ir.model.fields.selection,name:stock_move_purchase_uom.selection__stock_picking_type__purchase_uom_rounding_method__up
 msgid "Up"
 msgstr "Вгору"
+
+#. module: stock_move_purchase_uom
+#: model:ir.model.fields,field_description:stock_move_purchase_uom.field_stock_picking_type__purchase_uom_rounding_method
+msgid "Purchase Uom Rounding Method"
+msgstr "Метод округлення од. виміру закупівлі"
+
+#. module: stock_move_purchase_uom
+#: model:ir.model.fields,field_description:stock_move_purchase_uom.field_stock_picking_type__use_purchase_uom
+msgid "Use Purchase Uom"
+msgstr "Використовувати одиницю виміру закупівлі"

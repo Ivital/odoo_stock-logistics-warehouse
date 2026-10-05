@@ -104,3 +104,37 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:stock_lot_image.field_stock_lot_image__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: stock_lot_image
+#: model_terms:ir.ui.view,arch_db:stock_lot_image.stock_lot_image_view_form
+msgid "<span>Video Preview</span>"
+msgstr "<span>Попередній перегляд відео</span>"
+
+#. module: stock_lot_image
+#: model_terms:ir.ui.view,arch_db:stock_lot_image.stock_lot_image_view_kanban
+msgid "Acceptable file size"
+msgstr "Допустимий розмір файлу"
+
+#. module: stock_lot_image
+#: model:ir.model.fields,field_description:stock_lot_image.field_stock_lot_image__can_image_1024_be_zoomed
+msgid "Can Image 1024 be zoomed"
+msgstr "Чи можна масштабувати зображення 1024"
+
+#. module: stock_lot_image
+#: model_terms:ir.ui.view,arch_db:stock_lot_image.stock_lot_image_view_kanban
+msgid "Huge file size. The image should be optimized/reduced."
+msgstr "Файл надто великий. Зображення слід оптимізувати/зменшити."
+
+#. module: stock_lot_image
+#: model_terms:ir.ui.view,arch_db:stock_lot_image.stock_lot_image_view_kanban
+msgid ""
+"Optimization required! Reduce the image size or increase your compression "
+"settings."
+msgstr ""
+"Потрібна оптимізація! Зменште розмір зображення або збільште рівень "
+"стиснення."
+
+#. module: stock_lot_image
+#: model_terms:ir.ui.view,arch_db:stock_lot_image.stock_lot_image_view_form
+msgid "Please enter a valid Video URL."
+msgstr "Будь ласка, введіть коректний URL відео."

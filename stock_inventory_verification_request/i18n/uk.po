@@ -26,7 +26,7 @@ msgstr "Потрібна дія"
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_quant__allow_svr_creation
 msgid "Allow SVR Creation"
-msgstr ""
+msgstr "Дозволити створення SVR"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__responsible_id
@@ -62,17 +62,17 @@ msgstr "Підтвердити"
 #. module: stock_inventory_verification_request
 #: model_terms:ir.ui.view,arch_db:stock_inventory_verification_request.stock_slot_verification_request_form_view
 msgid "Create Inventory Adjustment"
-msgstr ""
+msgstr "Створити коригування запасів"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__created_inventory_ids
 msgid "Created Inventories"
-msgstr ""
+msgstr "Створені інвентаризації"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__created_inventory_count
 msgid "Created Inventory Count"
-msgstr ""
+msgstr "Створено інвентаризаційний підрахунок"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__create_uid
@@ -107,7 +107,7 @@ msgstr "Підписники (контрагенти)"
 #. module: stock_inventory_verification_request
 #: model_terms:ir.ui.view,arch_db:stock_inventory_verification_request.view_stock_quant_tree
 msgid "Generate a slot verification request for this line"
-msgstr ""
+msgstr "Створити запит перевірки слота для цього рядка"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__has_message
@@ -123,12 +123,12 @@ msgstr "ID"
 #: model:ir.model.fields,help:stock_inventory_verification_request.field_stock_slot_verification_request__message_needaction
 #: model:ir.model.fields,help:stock_inventory_verification_request.field_stock_slot_verification_request__message_unread
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,help:stock_inventory_verification_request.field_stock_slot_verification_request__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields.selection,name:stock_inventory_verification_request.selection__stock_slot_verification_request__state__open
@@ -139,7 +139,7 @@ msgstr "У процесі"
 #. module: stock_inventory_verification_request
 #: model_terms:ir.ui.view,arch_db:stock_inventory_verification_request.stock_slot_verification_request_form_view
 msgid "Inv. Adj. Created"
-msgstr ""
+msgstr "Коригування запасів створено"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__inventory_id
@@ -154,7 +154,7 @@ msgstr "Група коригування запасів"
 #. module: stock_inventory_verification_request
 #: model_terms:ir.ui.view,arch_db:stock_inventory_verification_request.stock_slot_verification_request_form_view
 msgid "Inventory Adjustments created from this SVR."
-msgstr ""
+msgstr "Коригування запасів, створені з цього SVR."
 
 #. module: stock_inventory_verification_request
 #: model:ir.model,name:stock_inventory_verification_request.model_stock_location
@@ -164,22 +164,22 @@ msgstr ""
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__involved_quant_ids
 msgid "Involved Inventory Quants"
-msgstr ""
+msgstr "Задіяні кванти інвентаризації"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__involved_move_line_count
 msgid "Involved Move Line Count"
-msgstr ""
+msgstr "Кількість задіяних рядків переміщення"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__involved_quant_count
 msgid "Involved Quant Count"
-msgstr ""
+msgstr "Кількість залучених квантів"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__involved_move_line_ids
 msgid "Involved Stock Moves"
-msgstr ""
+msgstr "Залучені рухи запасів"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__message_is_follower
@@ -264,7 +264,7 @@ msgstr ""
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,help:stock_inventory_verification_request.field_stock_slot_verification_request__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Кількість повідомлень із помилкою доставки"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,help:stock_inventory_verification_request.field_stock_slot_verification_request__message_unread_counter
@@ -274,7 +274,7 @@ msgstr ""
 #. module: stock_inventory_verification_request
 #: model:ir.actions.act_window,name:stock_inventory_verification_request.action_quant_line_tree
 msgid "Open Stock Lines"
-msgstr ""
+msgstr "Відкрити рядки запасів"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__product_id
@@ -289,7 +289,7 @@ msgstr ""
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_quant__requested_verification
 msgid "Requested Verification?"
-msgstr ""
+msgstr "Запитана перевірка?"
 
 #. module: stock_inventory_verification_request
 #: model_terms:ir.ui.view,arch_db:stock_inventory_verification_request.view_stock_quant_tree
@@ -308,7 +308,7 @@ msgstr "Запит на перевірку слота"
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_location__slot_verification_ids
 msgid "Slot Verification Requests"
-msgstr ""
+msgstr "Запити перевірки слотів"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields.selection,name:stock_inventory_verification_request.selection__stock_slot_verification_request__state__done
@@ -318,7 +318,7 @@ msgstr "Вирішено"
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_inventory__solving_slot_verification_request_id
 msgid "Solving Slot Verification Request"
-msgstr ""
+msgstr "Вирішення запиту перевірки слота"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__state
@@ -348,12 +348,12 @@ msgstr "Запаси перевірено"
 #. module: stock_inventory_verification_request
 #: model:ir.actions.act_window,name:stock_inventory_verification_request.action_slot_verification_request
 msgid "Stock Slot Verification Request"
-msgstr ""
+msgstr "Запит перевірки слота запасів"
 
 #. module: stock_inventory_verification_request
 #: model_terms:ir.ui.view,arch_db:stock_inventory_verification_request.stock_slot_verification_request_form_view
 msgid "Stock related to the given location and product."
-msgstr ""
+msgstr "Запас, пов’язаний із указаним місцем і товаром."
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,help:stock_inventory_verification_request.field_stock_slot_verification_request__created_inventory_ids
@@ -389,7 +389,7 @@ msgstr "Повідомлення вебсайту"
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,help:stock_inventory_verification_request.field_stock_slot_verification_request__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Історія комунікації через вебсайт"
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__product_name
@@ -411,3 +411,13 @@ msgstr "Оброблено ким"
 #: model_terms:ir.ui.view,arch_db:stock_inventory_verification_request.stock_slot_verification_request_form_view
 msgid "Product Moves Involved"
 msgstr "Задіяні переміщення товару"
+
+#. module: stock_inventory_verification_request
+#: model:ir.model.fields,help:stock_inventory_verification_request.field_stock_slot_verification_request__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: stock_inventory_verification_request
+#: model_terms:ir.ui.view,arch_db:stock_inventory_verification_request.stock_slot_verification_request_form_view
+msgid "Product Moves related to the given location and Product/lot."
+msgstr "Переміщення товару, пов’язані з указаним місцем і товаром/партією."

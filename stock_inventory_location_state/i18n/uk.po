@@ -92,3 +92,23 @@ msgstr "Розпочато"
 #: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory__sub_location_ids
 msgid "Sub-Locations"
 msgstr "Підмісця"
+
+#. module: stock_inventory_location_state
+#: model_terms:ir.ui.view,arch_db:stock_inventory_location_state.view_inventory_group_form
+msgid "<span class=\"o_stat_text\">Locations</span>"
+msgstr "<span class=\"o_stat_text\">Місця</span>"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory__done_location_count
+msgid "Number of Done Sub-Locations"
+msgstr "Кількість виконаних підмісць"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory__remaining_location_count
+msgid "Number of Remaining Sub-Locations"
+msgstr "Кількість залишкових підмісць"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory__location_count
+msgid "Number of Sub-Locations"
+msgstr "Кількість підмісць"

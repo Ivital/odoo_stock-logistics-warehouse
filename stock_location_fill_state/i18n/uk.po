@@ -42,3 +42,8 @@ msgstr "Заповнюється"
 #: model_terms:ir.ui.view,arch_db:stock_location_fill_state.stock_location_search_view
 msgid "Filled"
 msgstr "Заповнено"
+
+#. module: stock_location_fill_state
+#: model:ir.model.fields,field_description:stock_location_fill_state.field_stock_location__exclude_from_fill_state_computation
+msgid "Exclude From Fill State Computation"
+msgstr "Виключити з розрахунку стану заповнення"

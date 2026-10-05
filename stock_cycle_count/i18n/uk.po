@@ -36,7 +36,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_location_accuracy
 msgid "<span>Location:</span>"
-msgstr ""
+msgstr "<span>Місце:</span>"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_location_accuracy
@@ -46,12 +46,12 @@ msgstr ""
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_location_accuracy
 msgid "<strong>Current Accuracy:</strong>"
-msgstr ""
+msgstr "<strong>Поточна точність:</strong>"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_location__qty_variance_inventory_threshold
 msgid "Acceptable Inventory Quantity Variance Threshold"
-msgstr ""
+msgstr "Допустимий поріг відхилення кількості інвентаризації"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_inventory__inventory_accuracy
@@ -103,7 +103,7 @@ msgstr "Застосовано в:"
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__apply_in
 msgid "Apply this rule in:"
-msgstr ""
+msgstr "Застосувати це правило в:"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__responsible_id
@@ -133,7 +133,7 @@ msgstr "Автоматично запускати коригування зап�
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__automatic_deadline_date
 msgid "Automatic Required Date"
-msgstr ""
+msgstr "Автоматична потрібна дата"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
@@ -159,7 +159,7 @@ msgstr "Компанія"
 #. module: stock_cycle_count
 #: model:ir.actions.server,name:stock_cycle_count.action_server_warehouse_execute_cycle_count
 msgid "Compute Cycle Count Rules"
-msgstr ""
+msgstr "Обчислити правила циклічного підрахунку"
 
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_res_config_settings
@@ -174,12 +174,12 @@ msgstr "Підтвердити"
 #. module: stock_cycle_count
 #: model:ir.actions.server,name:stock_cycle_count.action_server_cycle_count_confirm
 msgid "Confirm Cycle Counts"
-msgstr ""
+msgstr "Підтвердити циклічні підрахунки"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_inventory__prefill_counted_quantity
 msgid "Counted Quantities"
-msgstr ""
+msgstr "Підраховані кількості"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_move_line__counted_qty
@@ -189,7 +189,7 @@ msgstr "Підрахована кількість"
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__periodic_qty_per_period
 msgid "Counts per period"
-msgstr ""
+msgstr "Кількість за період"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__create_uid
@@ -231,12 +231,12 @@ msgstr "Точність циклічної інвентаризації"
 #: model:ir.actions.server,name:stock_cycle_count.ir_cron_compute_cycle_count_action_ir_actions_server
 #: model:ir.cron,cron_name:stock_cycle_count.ir_cron_compute_cycle_count_action
 msgid "Cycle Count Planner Computation"
-msgstr ""
+msgstr "Обчислення планувальника циклічного підрахунку"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_warehouse__cycle_count_planning_horizon
 msgid "Cycle Count Planning Horizon (in days)"
-msgstr ""
+msgstr "Горизонт планування циклічного підрахунку (дні)"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_warehouse__cycle_count_rule_ids
@@ -250,6 +250,8 @@ msgid ""
 "Cycle Count Rules\n"
 "                    applied in this Warehouse:"
 msgstr ""
+"Правила циклічного підрахунку\n"
+"                    застосовуються на цьому складі:"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_warehouse__cycle_count_planning_horizon
@@ -271,27 +273,27 @@ msgstr "Циклічні інвентаризації"
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Cycle Counts Assigned to me"
-msgstr ""
+msgstr "Циклічні підрахунки, призначені мені"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Cycle Counts Cancelled"
-msgstr ""
+msgstr "Скасовані циклічні підрахунки"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Cycle Counts Done"
-msgstr ""
+msgstr "Циклічні підрахунки виконано"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Cycle Counts Planned"
-msgstr ""
+msgstr "Заплановані циклічні підрахунки"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Cycle Counts in Execution"
-msgstr ""
+msgstr "Циклічні підрахунки у виконанні"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__cycle_count_rule_id
@@ -301,7 +303,7 @@ msgstr "Правило циклічної інвентаризації"
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.view_warehouse_form
 msgid "Cycle count rules"
-msgstr ""
+msgstr "Правила циклічного підрахунку"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_location_accuracy
@@ -316,7 +318,7 @@ msgstr "Кінцева дата"
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.res_config_settings_view_form_cycle_adjustment
 msgid "Default Counted Quantity Mode"
-msgstr ""
+msgstr "Режим підрахованої кількості за замовчуванням"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__res_company__inventory_adjustment_counted_quantities__counted
@@ -345,7 +347,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_location__zero_confirmation_disabled
 msgid "Disable Zero Confirmations"
-msgstr ""
+msgstr "Вимкнути нульові підтвердження"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__display_name
@@ -385,7 +387,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_location__cycle_count_disabled
 msgid "Exclude from Cycle Count"
-msgstr ""
+msgstr "Виключити з циклічного підрахунку"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_cycle_count__state__open
@@ -428,9 +430,8 @@ msgstr "Якщо позначено, то повідомленя потребу�
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_cycle_count__message_has_error
-#, fuzzy
 msgid "If checked, some messages have a delivery error."
-msgstr "Якщо позначено, то повідомленя потребує вашої уваги"
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_res_company__auto_start_inventory_from_cycle_count
@@ -442,6 +443,8 @@ msgid ""
 "If enabled, confirming a Cycle Count will start the related Inventory "
 "Adjustment."
 msgstr ""
+"Якщо увімкнено, підтвердження циклічного підрахунку запустить пов'язане "
+"коригування запасів."
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_rule_form_view
@@ -450,11 +453,14 @@ msgid ""
 "                        going to the locations form and checking the box\n"
 "                        \"Exclude from Cycle Count\"."
 msgstr ""
+"У будь-якому випадку окремі місця можна виключити,\n"
+"                        перейшовши у форму місця та встановивши прапорець\n"
+"                        «Виключити з циклічного підрахунку»."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_warehouse__counts_for_accuracy_qty
 msgid "Inventories for location accuracy calculation"
-msgstr ""
+msgstr "Інвентаризації для обчислення точності місця"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_location_accuracy
@@ -470,7 +476,7 @@ msgstr "Точність інвентаризації"
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__inventory_adj_count
 msgid "Inventory Adj Count"
-msgstr ""
+msgstr "Кількість коригувань запасів"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__stock_adjustment_ids
@@ -501,12 +507,12 @@ msgstr ""
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.view_inventory_graph
 msgid "Inventory accuracy evolution"
-msgstr ""
+msgstr "Динаміка точності інвентаризації"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
 msgid "Inventory adjustments associated"
-msgstr ""
+msgstr "Пов’язані коригування запасів"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_is_follower
@@ -553,7 +559,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__manual_deadline_date
 msgid "Manual Required Date"
-msgstr ""
+msgstr "Ручна потрібна дата"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_has_error
@@ -575,7 +581,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__accuracy_threshold
 msgid "Minimum Accuracy Threshold"
-msgstr ""
+msgstr "Мінімальний поріг точності"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.view_inventory_filter
@@ -606,12 +612,12 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_cycle_count__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Кількість повідомлень, що потребують дії"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_cycle_count__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Кількість повідомлень із помилкою доставки"
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -660,7 +666,7 @@ msgstr "Потрібна дата"
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__rule_description
 msgid "Rule Description"
-msgstr ""
+msgstr "Опис правила"
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -683,17 +689,17 @@ msgstr ""
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Search Cycle Count"
-msgstr ""
+msgstr "Пошук циклічного підрахунку"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_cycle_count_rule__apply_in__location
 msgid "Selected Location Zones."
-msgstr ""
+msgstr "Вибрані зони місцезнаходження."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_cycle_count_rule__apply_in__warehouse
 msgid "Selected warehouses"
-msgstr ""
+msgstr "Вибрані склади"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.res_config_settings_view_form_cycle_adjustment
@@ -725,7 +731,7 @@ msgstr "Циклічна інвентаризація"
 #. module: stock_cycle_count
 #: model:ir.actions.act_window,name:stock_cycle_count.action_stock_cycle_count_rules
 msgid "Stock Cycle Count Rules"
-msgstr ""
+msgstr "Правила циклічного підрахунку запасів"
 
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_stock_cycle_count
@@ -777,12 +783,12 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_move_line__theoretical_qty
 msgid "Theoretical Quantity"
-msgstr ""
+msgstr "Теоретична кількість"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__turnover_inventory_value_threshold
 msgid "Turnover Inventory Value Threshold"
-msgstr ""
+msgstr "Порогове значення оборотності запасів"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__rule_type
@@ -804,7 +810,7 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__warehouse_ids
 msgid "Warehouses where applied"
-msgstr ""
+msgstr "Склади, де застосовується"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__website_message_ids
@@ -815,7 +821,7 @@ msgstr "Повідомлення"
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_cycle_count__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Історія комунікації через вебсайт"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_rule_form_view
@@ -824,6 +830,9 @@ msgid ""
 "                        warehouses or specific zones. A zone it is\n"
 "                        understood as a location and all its children."
 msgstr ""
+"Правила циклічного підрахунку можна застосовувати до цілих\n"
+"                        складів або окремих зон. Під зоною розуміється\n"
+"                        місце зберігання та всі його дочірні місця."
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -870,13 +879,43 @@ msgstr ""
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__location_ids
 msgid "Zones where applied"
-msgstr ""
+msgstr "Зони застосування"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_rule_form_view
 msgid "cycle counts test:"
 msgstr "тест циклічних підрахунків:"
+
+#. module: stock_cycle_count
+#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_location_accuracy
+msgid "<strong>Complete Name:</strong>"
+msgstr "<strong>Повна назва:</strong>"
+
+#. module: stock_cycle_count
+#: model_terms:ir.ui.view,arch_db:stock_cycle_count.res_config_settings_view_form_cycle_adjustment
+msgid "Auto Start Inventory Adjustment"
+msgstr "Автоматично запускати коригування запасів"
+
+#. module: stock_cycle_count
+#: model_terms:ir.ui.view,arch_db:stock_cycle_count.res_config_settings_view_form_cycle_adjustment
+msgid ""
+"If enabled, confirming a Cycle Count will start the related Inventory "
+"Adjustment"
+msgstr ""
+"Якщо ввімкнено, підтвердження циклічного підрахунку запустить пов’язане "
+"коригування запасів"
+
+#. module: stock_cycle_count
+#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_location_accuracy
+msgid "No inventory records found for this location."
+msgstr "Для цього місця не знайдено записів інвентаризації."
+
+#. module: stock_cycle_count
+#: model_terms:ir.ui.view,arch_db:stock_cycle_count.res_config_settings_view_form_cycle_adjustment
+msgid "Sets default counted quantities in Inventory Adjustments"
+msgstr ""
+"Встановлює підраховані кількості за замовчуванням у коригуваннях запасів"
 
 #, fuzzy
 #~ msgid "Number of unread messages"

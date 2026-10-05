@@ -80,3 +80,58 @@ msgstr "Максимальний поріг рівня розбіжності"
 #: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_stock_quant__discrepancy_threshold
 msgid "Threshold (%)"
 msgstr "Поріг (%)"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.actions.act_window,name:stock_inventory_discrepancy.confirm_discrepancy_action
+msgid "Confirm discrepancy"
+msgstr "Підтвердити розбіжність"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_confirm_discrepancy_wiz__discrepancy_quant_ids
+msgid "Discrepancy Quant"
+msgstr "Кількість розбіжності"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_stock_quant__discrepancy_percent
+msgid "Discrepancy percent (%)"
+msgstr "Відсоток розбіжності (%)"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_stock_quant__has_over_discrepancy
+msgid "Has Over Discrepancy"
+msgstr "Має перевищення розбіжності"
+
+#. module: stock_inventory_discrepancy
+#: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.view_location_form
+msgid "Inventory Discrepancy"
+msgstr "Розбіжність інвентаризації"
+
+#. module: stock_inventory_discrepancy
+#: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.quant_search_last_has_over_discrepancy
+msgid "Over Discrepancy"
+msgstr "Понад розбіжність"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_stock_location__propagate_discrepancy_threshold
+msgid "Propagate discrepancy threshold"
+msgstr "Поширювати поріг розбіжності"
+
+#. module: stock_inventory_discrepancy
+#: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.confirm_discrepancy_wizard
+msgid ""
+"The following products have exceeded the discrepancy threshold.\n"
+"                    Are you sure you want to proceed?"
+msgstr ""
+"Для наведених товарів перевищено поріг розбіжності.\n"
+"                    Ви впевнені, що хочете продовжити?"
+
+#. module: stock_inventory_discrepancy
+#: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.confirm_discrepancy_wizard
+msgid ""
+"You cannot confirm the inventory adjustment,\n"
+"                    the following products have exceeded the discrepancy threshold.\n"
+"                    Only users with permissions to apply them can proceed."
+msgstr ""
+"Ви не можете підтвердити коригування запасів,\n"
+"                    оскільки наведені нижче товари перевищили поріг розбіжності.\n"
+"                    Продовжити можуть лише користувачі з правами на застосування таких коригувань."

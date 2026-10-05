@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_move_common_dest.field_stock_move__common_dest_move_ids
 msgid "Common Dest Move"
 msgstr "Спільне переміщення призначення"
+
+#. module: stock_move_common_dest
+#: model_terms:ir.ui.view,arch_db:stock_move_common_dest.view_move_form_inherit
+msgid "Common destination moves"
+msgstr "Переміщення зі спільним призначенням"

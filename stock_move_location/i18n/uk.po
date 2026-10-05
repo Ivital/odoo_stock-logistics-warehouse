@@ -142,3 +142,88 @@ msgstr "Одиниця вимірювання товару"
 #: model_terms:ir.ui.view,arch_db:stock_move_location.view_wiz_stock_move_location_form_stock_move_location
 msgid "Unit of Measure"
 msgstr "Одиниця вимірювання"
+
+#. module: stock_move_location
+#: model:ir.model.fields,field_description:stock_move_location.field_wiz_stock_move_location__apply_putaway_strategy
+msgid "Apply Putaway Strategy"
+msgstr "Застосувати стратегію розміщення"
+
+#. module: stock_move_location
+#: model_terms:ir.ui.view,arch_db:stock_move_location.view_wiz_stock_move_location_form_stock_move_location
+msgid "Apply putaway strategy for moving products"
+msgstr "Застосовувати стратегію розміщення при переміщенні товарів"
+
+#. module: stock_move_location
+#: model:ir.model.fields,field_description:stock_move_location.field_wiz_stock_move_location__picking_id
+msgid "Connected Picking"
+msgstr "Пов’язане комплектування"
+
+#. module: stock_move_location
+#: model:ir.model.fields,field_description:stock_move_location.field_wiz_stock_move_location__destination_location_disable
+msgid "Destination Location Disable"
+msgstr "Вимкнути місце призначення"
+
+#. module: stock_move_location
+#: model:ir.model.fields,field_description:stock_move_location.field_wiz_stock_move_location__exclude_reserved_qty
+msgid "Exclude Reserved Qty"
+msgstr "Виключити зарезервовану кількість"
+
+#. module: stock_move_location
+#: model_terms:ir.ui.view,arch_db:stock_move_location.view_wiz_stock_move_location_form_stock_move_location
+msgid "Exclude Reserved Quantities"
+msgstr "Виключати зарезервовані кількості"
+
+#. module: stock_move_location
+#: model_terms:ir.ui.view,arch_db:stock_move_location.view_wiz_stock_move_location_form_stock_move_location
+msgid "Immediate Transfer"
+msgstr "Негайне переміщення"
+
+#. module: stock_move_location
+#: model:ir.model.fields,field_description:stock_move_location.field_wiz_stock_move_location__stock_move_location_line_ids
+msgid "Move Location lines"
+msgstr "Рядки переміщення місця"
+
+#. module: stock_move_location
+#: model:ir.model.fields,field_description:stock_move_location.field_wiz_stock_move_location_line__move_location_wizard_id
+msgid "Move location Wizard"
+msgstr "Майстер переміщення місця"
+
+#. module: stock_move_location
+#: model:ir.actions.act_window,name:stock_move_location.wiz_stock_quant_location_action
+msgid "Move to location..."
+msgstr "Перемістити до місця..."
+
+#. module: stock_move_location
+#: model:ir.model.fields,field_description:stock_move_location.field_wiz_stock_move_location__origin_location_disable
+msgid "Origin Location Disable"
+msgstr "Вимкнути місце походження"
+
+#. module: stock_move_location
+#: model:ir.model.fields,field_description:stock_move_location.field_stock_move__location_move
+msgid "Part of move location"
+msgstr "Частина переміщення місця"
+
+#. module: stock_move_location
+#: model_terms:ir.ui.view,arch_db:stock_move_location.view_wiz_stock_move_location_form_stock_move_location
+msgid "Planned Transfer"
+msgstr "Заплановане переміщення"
+
+#. module: stock_move_location
+#: model:ir.model.fields,field_description:stock_move_location.field_wiz_stock_move_location_line__move_quantity
+msgid "Quantity to move"
+msgstr "Кількість для переміщення"
+
+#. module: stock_move_location
+#: model:ir.model.fields,field_description:stock_move_location.field_wiz_stock_move_location_line__reserved_quantity
+msgid "Reserved Quantity"
+msgstr "Зарезервована кількість"
+
+#. module: stock_move_location
+#: model:ir.model.fields,field_description:stock_move_location.field_stock_picking_type__show_move_onhand
+msgid "Show Move On hand stock"
+msgstr "Показувати наявний запас переміщення"
+
+#. module: stock_move_location
+#: model:ir.model.fields,field_description:stock_move_location.field_wiz_stock_move_location_line__total_quantity
+msgid "Total existence quantity"
+msgstr "Загальна наявна кількість"
