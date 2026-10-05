@@ -18,3 +18,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_move_line_lot_link.view_stock_move_line_operation_tree
 msgid "Lot/Serial Number Link"
 msgstr "Посилання на партію/серійний номер"
+
+#. module: stock_move_line_lot_link
+#. odoo-python
+#: code:addons/stock_move_line_lot_link/models/stock_move_line.py:0
+msgid "No lot or serial number linked to this move line!"
+msgstr "З цим рядком переміщення не пов’язано партію або серійний номер!"

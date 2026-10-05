@@ -32,3 +32,33 @@ msgstr "Тип лотка складського місця"
 #: model:ir.model,name:stock_vertical_lift_storage_type.model_vertical_lift_operation_put
 msgid "Vertical Lift Operation Put"
 msgstr "Операція вертикального ліфта — розміщення"
+
+#. module: stock_vertical_lift_storage_type
+#. odoo-python
+#: code:addons/stock_vertical_lift_storage_type/models/stock_location.py:0
+msgid ""
+"Error creating '%(name)s': Location storage category must be set on the tray"
+" type"
+msgstr ""
+"Помилка створення «%(name)s»: категорію зберігання місця потрібно вказати в "
+"типі лотка"
+
+#. module: stock_vertical_lift_storage_type
+#. odoo-python
+#: code:addons/stock_vertical_lift_storage_type/models/stock_location.py:0
+msgid ""
+"Error updating '%(name)s': Location storage category must be set on the tray"
+" type"
+msgstr ""
+"Помилка оновлення «%(name)s»: категорію зберігання місця потрібно вказати в "
+"типі лотка"
+
+#. module: stock_vertical_lift_storage_type
+#. odoo-python
+#: code:addons/stock_vertical_lift_storage_type/models/vertical_lift_operation_put.py:0
+msgid ""
+"No free space found for package type '%(package_type)s' in shuttle "
+"'%(name)s'"
+msgstr ""
+"У шатлі «%(name)s» не знайдено вільного місця для типу пакування "
+"«%(package_type)s»"

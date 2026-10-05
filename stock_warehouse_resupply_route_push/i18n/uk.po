@@ -49,3 +49,36 @@ msgid ""
 "deliveries."
 msgstr ""
 "Зверніть увагу: буде створено новий тип операції для міжскладських доставок."
+
+#. module: stock_warehouse_resupply_route_push
+#. odoo-python
+#: code:addons/stock_warehouse_resupply_route_push/models/stock_warehouse.py:0
+msgid "%(name)s Sequence inter warehouse"
+msgstr "%(name)s послідовність між складами"
+
+#. module: stock_warehouse_resupply_route_push
+#. odoo-python
+#: code:addons/stock_warehouse_resupply_route_push/models/stock_warehouse.py:0
+msgid "%(name)s Sequence inter warehouse (external)"
+msgstr "%(name)s Послідовність між складами (зовнішня)"
+
+#. module: stock_warehouse_resupply_route_push
+#. odoo-python
+#: code:addons/stock_warehouse_resupply_route_push/models/stock_warehouse.py:0
+msgid ""
+"Address is required in warehouse %s to use Inter-warehouse push routes "
+"generation."
+msgstr ""
+"Для генерації push-маршрутів між складами у складі %s потрібна адреса."
+
+#. module: stock_warehouse_resupply_route_push
+#. odoo-python
+#: code:addons/stock_warehouse_resupply_route_push/models/stock_warehouse.py:0
+msgid "Delivery Orders (Inter Warehouse - External)"
+msgstr "Замовлення на доставку (між складами — зовнішні)"
+
+#. module: stock_warehouse_resupply_route_push
+#. odoo-python
+#: code:addons/stock_warehouse_resupply_route_push/models/stock_warehouse.py:0
+msgid "Delivery Orders (Inter Warehouse)"
+msgstr "Замовлення доставки (між складами)"

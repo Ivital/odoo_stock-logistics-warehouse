@@ -122,3 +122,43 @@ msgstr "Місце інвентаризації має бути унікальн
 #: model:ir.model,name:stock_inventory_location_state.model_stock_inventory_location
 msgid "Stock Inventory Location"
 msgstr "Місце інвентаризації запасу"
+
+#. module: stock_inventory_location_state
+#. odoo-python
+#: code:addons/stock_inventory_location_state/models/stock_inventory.py:0
+msgid "Inventory Locations"
+msgstr "Місця зберігання"
+
+#. module: stock_inventory_location_state
+#. odoo-python
+#: code:addons/stock_inventory_location_state/models/stock_inventory.py:0
+msgid ""
+"The following locations have not been inventoried yet:\n"
+"%(locations)s\n"
+"You must finalize the corresponding sub-locations."
+msgstr ""
+"Такі місця ще не інвентаризовано:\n"
+"%(locations)s\n"
+"Потрібно завершити відповідні підмісця."
+
+#. module: stock_inventory_location_state
+#. odoo-python
+#: code:addons/stock_inventory_location_state/models/stock_inventory_location.py:0
+msgid "Unable to re-open: inventory %(name)s has been validated."
+msgstr "Неможливо повторно відкрити: інвентаризацію %(name)s підтверджено."
+
+#. module: stock_inventory_location_state
+#. odoo-python
+#: code:addons/stock_inventory_location_state/models/stock_inventory_location.py:0
+msgid "Unable to start inventory of location %(name)s: it isn't pending."
+msgstr ""
+"Не вдалося розпочати інвентаризацію місця %(name)s: вона не очікує "
+"виконання."
+
+#. module: stock_inventory_location_state
+#. odoo-python
+#: code:addons/stock_inventory_location_state/models/stock_inventory_location.py:0
+msgid ""
+"Unable to validate inventory of location %(name)s: it hasn't been started."
+msgstr ""
+"Не вдалося підтвердити інвентаризацію місця %(name)s: її не розпочато."

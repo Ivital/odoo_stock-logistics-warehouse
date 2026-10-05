@@ -66,3 +66,39 @@ msgstr "Зображення товару 128"
 #: model:ir.model,name:stock_lot_catalog.model_stock_lot_catalog_mixin
 msgid "Stock Lot Catalog Mixin"
 msgstr "Міксин каталогу партій запасу"
+
+#. module: stock_lot_catalog
+#. odoo-javascript
+#: code:addons/stock_lot_catalog/static/src/stock_lot_catalog/kanban_controller.esm.js:0
+msgid "Back to Order"
+msgstr "Назад до замовлення"
+
+#. module: stock_lot_catalog
+#. odoo-javascript
+#: code:addons/stock_lot_catalog/static/src/stock_lot_catalog/kanban_controller.esm.js:0
+msgid "Back to Quotation"
+msgstr "Назад до комерційної пропозиції"
+
+#. module: stock_lot_catalog
+#. odoo-javascript
+#: code:addons/stock_lot_catalog/static/src/stock_lot_catalog/kanban_renderer.xml:0
+msgid "Create a lot"
+msgstr "Створити партію"
+
+#. module: stock_lot_catalog
+#. odoo-javascript
+#: code:addons/stock_lot_catalog/static/src/stock_lot_catalog/kanban_renderer.xml:0
+msgid "No lots could be found."
+msgstr "Партій не знайдено."
+
+#. module: stock_lot_catalog
+#. odoo-javascript
+#: code:addons/stock_lot_catalog/static/src/stock_lot_catalog/order_line/order_line.xml:0
+msgid "Unit price:"
+msgstr "Ціна за одиницю:"
+
+#. module: stock_lot_catalog
+#. odoo-javascript
+#: code:addons/stock_lot_catalog/static/src/stock_lot_catalog/order_line/order_line.xml:0
+msgid "You can't edit this lot in the catalog."
+msgstr "Ви не можете редагувати цю партію в каталозі."

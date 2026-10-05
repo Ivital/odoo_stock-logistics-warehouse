@@ -55,3 +55,19 @@ msgstr ""
 #: model:stock.route,name:stock_mts_mto_rule.route_mto_mts
 msgid "Make To Order + Make To Stock"
 msgstr "Під замовлення + На склад"
+
+#. module: stock_mts_mto_rule
+#. odoo-python
+#: code:addons/stock_mts_mto_rule/models/stock_rule.py:0
+msgid ""
+"Inconsistency between the source locations of the mts and mto rules linked "
+"to the procurement rule: %s! It should be the same."
+msgstr ""
+"Неузгодженість між вихідними місцями правил MTS і MTO, пов’язаних із "
+"правилом забезпечення %s! Вони мають збігатися."
+
+#. module: stock_mts_mto_rule
+#. odoo-python
+#: code:addons/stock_mts_mto_rule/models/stock_rule.py:0
+msgid "No MTS or MTO rule configured on procurement rule: %s!"
+msgstr "У правилі забезпечення %s не налаштовано правило MTS або MTO!"

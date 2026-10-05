@@ -17,3 +17,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:procurement_auto_create_group.field_stock_rule__auto_create_group
 msgid "Auto-create Procurement Group"
 msgstr "Автоматично створювати групу постачання"
+
+#. module: procurement_auto_create_group
+#. odoo-python
+#: code:addons/procurement_auto_create_group/models/stock_rule.py:0
+msgid "No sequence defined for procurement group."
+msgstr "Для групи забезпечення не визначено послідовність."

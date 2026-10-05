@@ -23,7 +23,7 @@ msgstr ""
 #: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
 #, python-format
 msgid "(No description provided.)"
-msgstr ""
+msgstr "(Опис не надано.)"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.res_config_settings_view_form_cycle_adjustment
@@ -96,6 +96,7 @@ msgstr ""
 #, python-format
 msgid "An adjustment linked to a cycle count should exclude the sublocations."
 msgstr ""
+"Коригування, пов’язане з циклічним підрахунком, має виключати підмісця."
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_rule_form_view
@@ -376,6 +377,8 @@ msgid ""
 "Ensures that at least a defined number of counts in a given period will be "
 "run."
 msgstr ""
+"Гарантує виконання щонайменше визначеної кількості підрахунків за заданий "
+"період."
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -383,13 +386,14 @@ msgstr ""
 #, python-format
 msgid "Error found determining the frequency of periodic cycle count rule. %s"
 msgstr ""
+"Помилка визначення частоти правила періодичного циклічного підрахунку. %s"
 
 #. module: stock_cycle_count
 #. odoo-python
 #: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
 #, python-format
 msgid "Error found when comparing turnover with the rule threshold. %s"
-msgstr ""
+msgstr "Під час порівняння обороту з порогом правила знайдено помилку. %s"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_location__cycle_count_disabled
@@ -583,7 +587,7 @@ msgstr "Повідомлення"
 #: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
 #, python-format
 msgid "Minimum Accuracy"
-msgstr ""
+msgstr "Мінімальна точність"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__accuracy_threshold
@@ -636,6 +640,8 @@ msgid ""
 "Perform an Inventory Adjustment every time a location in the warehouse runs "
 "out of stock in order to confirm it is truly empty."
 msgstr ""
+"Виконуйте коригування інвентаризації щоразу, коли запас у місці складу "
+"закінчується, щоб підтвердити, що воно справді порожнє."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__periodic_count_period
@@ -685,6 +691,7 @@ msgid ""
 "Schedules a count every time the accuracy of a location goes under a given "
 "threshold."
 msgstr ""
+"Планує підрахунок щоразу, коли точність місця падає нижче заданого порогу."
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -694,6 +701,8 @@ msgid ""
 "Schedules a count every time the total turnover of a location exceeds the "
 "threshold. This considers every product going into/out of the location"
 msgstr ""
+"Планує підрахунок щоразу, коли загальний оборот місця перевищує поріг. "
+"Враховуються всі товари, що входять/виходять із місця"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
@@ -765,13 +774,15 @@ msgid ""
 "The Inventory Adjustment is inconsistent with the Cycle Count:\n"
 "%(message)s"
 msgstr ""
+"Коригування інвентаризації не узгоджується з циклічним підрахунком:\n"
+"%(message)s"
 
 #. module: stock_cycle_count
 #. odoo-python
 #: code:addons/stock_cycle_count/models/stock_inventory.py:0
 #, python-format
 msgid "The adjustment should be done for all products in the location."
-msgstr ""
+msgstr "Коригування потрібно виконати для всіх товарів у місці."
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -780,14 +791,14 @@ msgstr ""
 msgid ""
 "The company of the adjustment does not match with the company in the cycle "
 "count."
-msgstr ""
+msgstr "Компанія коригування не відповідає компанії циклічного підрахунку."
 
 #. module: stock_cycle_count
 #. odoo-python
 #: code:addons/stock_cycle_count/models/stock_inventory.py:0
 #, python-format
 msgid "The location in the inventory does not match with the cycle count."
-msgstr ""
+msgstr "Місце в інвентаризації не відповідає циклічному підрахунку."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_move_line__theoretical_qty
@@ -809,7 +820,7 @@ msgstr "Тип правила"
 #: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
 #, python-format
 msgid "Value Turnover"
-msgstr ""
+msgstr "Оборот вартості"
 
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_stock_warehouse
@@ -848,7 +859,7 @@ msgstr ""
 #: code:addons/stock_cycle_count/models/stock_cycle_count.py:0
 #, python-format
 msgid "You can only confirm cycle counts in state 'Planned'."
-msgstr ""
+msgstr "Підтверджувати циклічні підрахунки можна лише у стані «Заплановано»."
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -856,6 +867,7 @@ msgstr ""
 #, python-format
 msgid "You can only have one zero confirmation rule per warehouse."
 msgstr ""
+"Для кожного складу може бути лише одне правило нульового підтвердження."
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -863,20 +875,21 @@ msgstr ""
 #, python-format
 msgid "You cannot define a negative or null number of counts per period."
 msgstr ""
+"Не можна задавати від’ємну або нульову кількість підрахунків за період."
 
 #. module: stock_cycle_count
 #. odoo-python
 #: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
 #, python-format
 msgid "You cannot define a negative period."
-msgstr ""
+msgstr "Не можна задавати від’ємний період."
 
 #. module: stock_cycle_count
 #. odoo-python
 #: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
 #, python-format
 msgid "Zero Confirmation"
-msgstr ""
+msgstr "Нульове підтвердження"
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -884,6 +897,7 @@ msgstr ""
 #, python-format
 msgid "Zero confirmation rules can only have one warehouse assigned."
 msgstr ""
+"Правила нульового підтвердження можуть мати лише один призначений склад."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__location_ids

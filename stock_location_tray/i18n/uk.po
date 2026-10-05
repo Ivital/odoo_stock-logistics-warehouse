@@ -254,3 +254,54 @@ msgstr "Використовується для визначення, чи по�
 #: model:ir.model.fields,help:stock_location_tray.field_stock_location_tray_type__width
 msgid "Width of the tray in mm"
 msgstr "Ширина лотка в мм"
+
+#. module: stock_location_tray
+#. odoo-python
+#: code:addons/stock_location_tray/models/stock_move_line.py:0
+msgid "Destination Tray"
+msgstr "Лоток призначення"
+
+#. module: stock_location_tray
+#. odoo-python
+#: code:addons/stock_location_tray/models/stock_location.py:0
+msgid ""
+"Location %(display_name)s has sub-locations, it cannot be converted to a "
+"tray."
+msgstr ""
+"Місце %(display_name)s має підмісця, його не можна перетворити на лоток."
+
+#. module: stock_location_tray
+#. odoo-python
+#: code:addons/stock_location_tray/models/stock_move_line.py:0
+msgid "Source Tray"
+msgstr "Вихідний лоток"
+
+#. module: stock_location_tray
+#. odoo-python
+#: code:addons/stock_location_tray/models/stock_location_tray_type.py:0
+msgid ""
+"The tray type %(name)s is used by the following locations and cannot be archived:\n"
+"\n"
+"%(location_bullets)s"
+msgstr ""
+"Тип лотка %(name)s використовується такими місцями й не може бути архівований:\n"
+"\n"
+"%(location_bullets)s"
+
+#. module: stock_location_tray
+#. odoo-python
+#: code:addons/stock_location_tray/models/stock_location_tray_type.py:0
+msgid ""
+"The tray type %(name)s is used by the following locations, it's size cannot be changed:\n"
+"\n"
+"%(location_bullets)s"
+msgstr ""
+"Тип лотка %(name)s використовується такими місцями, тому його розмір не можна змінити:\n"
+"\n"
+"%(location_bullets)s"
+
+#. module: stock_location_tray
+#. odoo-python
+#: code:addons/stock_location_tray/tests/test_location.py:0
+msgid "You can't disable locations %s because they still contain products."
+msgstr "Не можна вимкнути місця %s, оскільки вони все ще містять товари."

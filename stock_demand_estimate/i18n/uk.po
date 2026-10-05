@@ -193,6 +193,8 @@ msgid ""
 "The requested operation cannot be processed because of a programming error "
 "setting the `product_qty` field instead of the `product_uom_qty`."
 msgstr ""
+"Запитану операцію неможливо обробити через помилку програмування: "
+"встановлюється поле `product_qty` замість `product_uom_qty`."
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__manual_date_to

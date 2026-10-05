@@ -194,3 +194,20 @@ msgstr "Підтвердити коригування запасів із пер
 #: code:addons/stock_inventory_discrepancy/models/stock_quant.py:0
 msgid "Value should be True or False (not %s)"
 msgstr "Значення має бути True або False (не %s)"
+
+#. module: stock_inventory_discrepancy
+#. odoo-python
+#: code:addons/stock_inventory_discrepancy/models/stock_quant.py:0
+msgid "Only a stock manager can validate an inventory adjustment."
+msgstr "Лише менеджер складу може підтвердити коригування інвентаризації."
+
+#. module: stock_inventory_discrepancy
+#. odoo-python
+#: code:addons/stock_inventory_discrepancy/wizards/confirm_discrepancy_wiz.py:0
+msgid ""
+"You cannot apply inventory adjustments if there are products that exceed the"
+" discrepancy threshold. Only users with rights to apply them can proceed."
+msgstr ""
+"Не можна застосувати коригування інвентаризації, якщо є товари, що "
+"перевищують поріг розбіжності. Продовжити можуть лише користувачі з "
+"відповідними правами."

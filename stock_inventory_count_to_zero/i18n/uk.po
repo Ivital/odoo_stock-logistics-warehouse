@@ -17,3 +17,9 @@ msgstr ""
 #: model:ir.model.fields.selection,name:stock_inventory_count_to_zero.selection__stock_request_count__set_count__zero
 msgid "Set to zero"
 msgstr "Встановити нуль"
+
+#. module: stock_inventory_count_to_zero
+#. odoo-python
+#: code:addons/stock_inventory_count_to_zero/models/stock_quant.py:0
+msgid "Quantities Already Set"
+msgstr "Кількості вже задано"

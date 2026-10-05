@@ -28,3 +28,23 @@ msgstr ""
 "Якщо встановити цей прапорець, розміщення запасів у цій локації буде "
 "заборонено. Використовуйте це для тимчасового блокування переміщень або "
 "примусового застосування обмежень у фізичних і віртуальних локаціях."
+
+#. module: stock_location_lockdown
+#. odoo-python
+#: code:addons/stock_location_lockdown/models/stock_location.py:0
+msgid ""
+"It is impossible to prohibit this location from                    receiving"
+" products as it already contains some."
+msgstr ""
+"Неможливо заборонити цьому місцю приймати товари, оскільки воно вже містить "
+"деякі."
+
+#. module: stock_location_lockdown
+#. odoo-python
+#: code:addons/stock_location_lockdown/models/stock_quant.py:0
+msgid ""
+"The location %(location)s is blocked and can not be used for moving the "
+"product %(product)s"
+msgstr ""
+"Місце %(location)s заблоковане й не може використовуватися для переміщення "
+"товару %(product)s"

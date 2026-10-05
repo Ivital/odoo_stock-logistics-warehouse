@@ -67,3 +67,13 @@ msgid ""
 msgstr ""
 "Система автоматично обчислює завершене пакування у рядках складських переміщень.\n"
 "Вимкніть, щоб заборонити автоматичний розрахунок."
+
+#. module: stock_move_packaging_qty
+#. odoo-python
+#: code:addons/stock_move_packaging_qty/models/stock_move.py:0
+msgid ""
+"There are %d move lines involved. Please set their product packaging done "
+"qty directly."
+msgstr ""
+"Задіяно %d рядків переміщення. Вкажіть виконану кількість пакування товару "
+"безпосередньо."

@@ -354,3 +354,71 @@ msgstr "Конкретний відповідальний за коригува�
 #: model:ir.model.fields,help:stock_inventory.field_stock_inventory__owner_id
 msgid "This is the owner of the inventory adjustment"
 msgstr "Це власник коригування запасів"
+
+#. module: stock_inventory
+#. odoo-python
+#: code:addons/stock_inventory/models/stock_inventory.py:0
+msgid ""
+"Cannot have more than one in-progress inventory adjustment affecting the "
+"same location or product at the same time."
+msgstr ""
+"Одночасно не може бути більше одного активного коригування інвентаризації "
+"для того самого місця або товару."
+
+#. module: stock_inventory
+#. odoo-python
+#: code:addons/stock_inventory/models/stock_quant.py:0
+msgid "No move lines have been created"
+msgstr "Рядки переміщення не створено"
+
+#. module: stock_inventory
+#. odoo-python
+#: code:addons/stock_inventory/models/stock_inventory.py:0
+msgid ""
+"There are active adjustments for the requested products: %(names)s. Blocking"
+" adjustments: %(blocking_names)s"
+msgstr ""
+"Є активні коригування для запитаних товарів: %(names)s. Блокувальні "
+"коригування: %(blocking_names)s"
+
+#. module: stock_inventory
+#. odoo-python
+#: code:addons/stock_inventory/models/stock_inventory.py:0
+msgid ""
+"There's already an Adjustment in Process using one requested Location: "
+"%(names)s. Blocking adjustments: %(blocking_names)s"
+msgstr ""
+"Уже є коригування в процесі, що використовує одне із запитаних місць: "
+"%(names)s. Блокувальні коригування: %(blocking_names)s"
+
+#. module: stock_inventory
+#. odoo-python
+#: code:addons/stock_inventory/models/stock_inventory.py:0
+msgid ""
+"When 'Product Selection: Lot Serial Number' is selected you are only able to"
+" add one product."
+msgstr ""
+"Коли вибрано «Вибір товару: Партія/серійний номер», можна додати лише один "
+"товар."
+
+#. module: stock_inventory
+#. odoo-python
+#: code:addons/stock_inventory/models/stock_inventory.py:0
+msgid ""
+"When 'Product Selection: One Product' is selected you are only able to add "
+"one product."
+msgstr ""
+"Коли вибрано «Вибір товару: Один товар», можна додати лише один товар."
+
+#. module: stock_inventory
+#. odoo-python
+#: code:addons/stock_inventory/models/stock_inventory.py:0
+msgid "You can only delete inventory adjustments groups in draft state."
+msgstr ""
+"Групи коригування інвентаризації можна видаляти лише у стані чернетки."
+
+#. module: stock_inventory
+#. odoo-python
+#: code:addons/stock_inventory/models/stock_inventory.py:0
+msgid "You can't cancel this inventory %(display_name)s."
+msgstr "Не можна скасувати цю інвентаризацію %(display_name)s."

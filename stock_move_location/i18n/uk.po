@@ -256,3 +256,22 @@ msgstr "Технічне поле для вимкнення редагуванн
 #: model:ir.model.fields,help:stock_move_location.field_wiz_stock_move_location__origin_location_disable
 msgid "technical field to disable the edition of origin location."
 msgstr "Технічне поле для вимкнення редагування вихідного місця."
+
+#. module: stock_move_location
+#. odoo-python
+#: code:addons/stock_move_location/wizard/stock_move_location_line.py:0
+msgid "Move quantity can not exceed max quantity or be negative"
+msgstr ""
+"Кількість переміщення не може перевищувати максимум або бути від’ємною"
+
+#. module: stock_move_location
+#. odoo-python
+#: code:addons/stock_move_location/models/stock_picking.py:0
+msgid "Moves lines already exists"
+msgstr "Рядки переміщення вже існують"
+
+#. module: stock_move_location
+#. odoo-python
+#: code:addons/stock_move_location/models/stock_picking.py:0
+msgid "Please choose a source end location"
+msgstr "Виберіть кінцеве місце джерела"

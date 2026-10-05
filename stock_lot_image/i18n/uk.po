@@ -148,3 +148,10 @@ msgstr "Зображення партії запасу"
 #: model:ir.model.fields,help:stock_lot_image.field_stock_lot_image__video_url
 msgid "URL of a video for showcasing your lot."
 msgstr "URL відео для демонстрації вашої партії."
+
+#. module: stock_lot_image
+#. odoo-python
+#: code:addons/stock_lot_image/models/stock_lot_image.py:0
+msgid ""
+"Provided video URL for '%s' is not valid. Please enter a valid video URL."
+msgstr "Наданий URL відео для «%s» недійсний. Введіть дійсний URL відео."

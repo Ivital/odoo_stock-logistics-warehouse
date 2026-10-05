@@ -89,3 +89,9 @@ msgstr "Оператор перевірить, коли система вияв�
 #: model:ir.model,name:stock_vertical_lift_empty_tray_check.model_vertical_lift_operation_pick_zero_check
 msgid "Make sure the tray location is empty"
 msgstr "Переконайтеся, що місце лотка порожнє"
+
+#. module: stock_vertical_lift_empty_tray_check
+#. odoo-python
+#: code:addons/stock_vertical_lift_empty_tray_check/models/vertical_lift_operation_pick.py:0
+msgid "Empty check"
+msgstr "Перевірка порожнього"

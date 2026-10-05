@@ -674,3 +674,63 @@ msgstr "Мережевий порт сервера, на який надсила
 #: model:ir.model.fields,help:stock_vertical_lift.field_vertical_lift_shuttle__use_tls
 msgid "set this if the server expects TLS wrapped communication"
 msgstr "Установіть це, якщо сервер очікує зв’язок, обгорнутий TLS"
+
+#. module: stock_vertical_lift
+#. odoo-python
+#: code:addons/stock_vertical_lift/models/stock_location.py:0
+msgid "<br/>Laser pointer on x%(x)s y%(y)s (%(left)smm, %(bottom)smm)"
+msgstr "<br/>Лазерний вказівник на x%(x)s y%(y)s (%(left)sмм, %(bottom)sмм)"
+
+#. module: stock_vertical_lift
+#. odoo-python
+#: code:addons/stock_vertical_lift/models/stock_location.py:0
+msgid "Cannot fetch a vertical lift tray on location %s"
+msgstr "Не вдалося отримати лоток вертикального підйомника в місці %s"
+
+#. module: stock_vertical_lift
+#. odoo-python
+#: code:addons/stock_vertical_lift/models/vertical_lift_shuttle.py:0
+msgid "Lift Simulation"
+msgstr "Симуляція ліфта"
+
+#. module: stock_vertical_lift
+#. odoo-python
+#: code:addons/stock_vertical_lift/models/vertical_lift_operation_put.py:0
+msgid "No free space for tray type %(name)s in this shuttle."
+msgstr "У цьому шатлі немає вільного місця для типу лотка %(name)s."
+
+#. module: stock_vertical_lift
+#. odoo-python
+#: code:addons/stock_vertical_lift/models/vertical_lift_operation_pick.py:0
+msgid "No location found for barcode %(barcode)s"
+msgstr "Для штрихкоду %(barcode)s не знайдено місця"
+
+#. module: stock_vertical_lift
+#. odoo-python
+#: code:addons/stock_vertical_lift/models/vertical_lift_operation_put.py:0
+msgid "No move line found for barcode %(barcode)s"
+msgstr "Для штрихкоду %(barcode)s не знайдено рядка переміщення"
+
+#. module: stock_vertical_lift
+#. odoo-python
+#: code:addons/stock_vertical_lift/models/vertical_lift_operation_put.py:0
+msgid "No tray type found for barcode %(barcode)s"
+msgstr "Для штрихкоду %(barcode)s не знайдено типу лотка"
+
+#. module: stock_vertical_lift
+#. odoo-python
+#: code:addons/stock_vertical_lift/models/stock_location.py:0
+msgid "Opening tray %(name)s."
+msgstr "Відкриття лотка %(name)s."
+
+#. module: stock_vertical_lift
+#. odoo-python
+#: code:addons/stock_vertical_lift/models/vertical_lift_shuttle.py:0
+msgid "Releasing tray"
+msgstr "Вивільнення лотка"
+
+#. module: stock_vertical_lift
+#. odoo-python
+#: code:addons/stock_vertical_lift/models/vertical_lift_command.py:0
+msgid "Unknown record %(name)s"
+msgstr "Невідомий запис %(name)s"

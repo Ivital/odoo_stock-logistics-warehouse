@@ -217,3 +217,21 @@ msgstr "Рядок аркуша оцінки попиту на запас"
 #: code:addons/stock_demand_estimate_matrix/wizards/stock_demand_estimate_wizard.py:0
 msgid "The start date cannot be later than the end date."
 msgstr "Дата початку не може бути пізнішою за дату завершення."
+
+#. module: stock_demand_estimate_matrix
+#. odoo-python
+#: code:addons/stock_demand_estimate_matrix/wizards/stock_demand_estimate_wizard.py:0
+msgid "Estimate Sheet"
+msgstr "Аркуш оцінки"
+
+#. module: stock_demand_estimate_matrix
+#. odoo-python
+#: code:addons/stock_demand_estimate_matrix/wizards/stock_demand_estimate_sheet.py:0
+msgid "There is no ranges created."
+msgstr "Діапазони не створено."
+
+#. module: stock_demand_estimate_matrix
+#. odoo-python
+#: code:addons/stock_demand_estimate_matrix/wizards/stock_demand_estimate_wizard.py:0
+msgid "You must select at least one product."
+msgstr "Потрібно вибрати щонайменше один товар."

@@ -718,3 +718,101 @@ msgstr "Завдання модуля вертикального ліфта"
 #: model:ir.model.fields,help:stock_vlm_mgmt.field_stock_location_vlm_tray_type__width
 msgid "Width of the tray in mm"
 msgstr "Ширина лотка в мм"
+
+#. module: stock_vlm_mgmt
+#. odoo-python
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
+#: code:addons/stock_vlm_mgmt/models/stock_location_vlm_tray.py:0
+msgid "%(user)s has requested a release of the trays from Odoo"
+msgstr "%(user)s запросив вивільнення лотків з Odoo"
+
+#. module: stock_vlm_mgmt
+#. odoo-python
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
+msgid "No implemented request connector for this vendor!"
+msgstr "Для цього постачальника не реалізовано конектор запитів!"
+
+#. module: stock_vlm_mgmt
+#. odoo-python
+#: code:addons/stock_vlm_mgmt/wizards/stock_vlm_task_action.py:0
+msgid ""
+"No quantity was processed. Do you want to put the goods in another position?"
+" (you can also skip the task)"
+msgstr ""
+"Кількість не оброблено. Перемістити товари в іншу позицію? (також можна "
+"пропустити завдання)"
+
+#. module: stock_vlm_mgmt
+#. odoo-javascript
+#: code:addons/stock_vlm_mgmt/static/src/js/vlm_request_button/vlm_request_views.xml:0
+msgid "Perform tasks"
+msgstr "Виконати завдання"
+
+#. module: stock_vlm_mgmt
+#. odoo-python
+#: code:addons/stock_vlm_mgmt/wizards/stock_vlm_task_action.py:0
+msgid ""
+"Quantity mismatch! The quantity reported by the VLM is greater than original"
+" demand!. Please check it. If it's ok, you can fix it now and save the task "
+"manually."
+msgstr ""
+"Невідповідність кількості! Кількість, повідомлена VLM, перевищує початковий "
+"попит. Перевірте її. Якщо все правильно, виправте зараз і збережіть завдання"
+" вручну."
+
+#. module: stock_vlm_mgmt
+#. odoo-python
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
+msgid ""
+"The command response has been lost for unknown reasons. Did you perform the "
+"operation on the VLM? Make sure there aren't unconsistencies with the "
+"recorded data"
+msgstr ""
+"Відповідь команди втрачено з невідомих причин. Чи виконали ви операцію на "
+"VLM? Переконайтеся, що немає невідповідностей із записаними даними"
+
+#. module: stock_vlm_mgmt
+#. odoo-python
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
+msgid "The connection was refused by the VLM and couldn't be stablished."
+msgstr "VLM відхилив підключення, і його не вдалося встановити."
+
+#. module: stock_vlm_mgmt
+#. odoo-python
+#: code:addons/stock_vlm_mgmt/wizards/stock_vlm_task_action.py:0
+msgid "The quantity reported is greater than the one set in the task!"
+msgstr "Зазначена кількість перевищує кількість, встановлену в завданні!"
+
+#. module: stock_vlm_mgmt
+#. odoo-python
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
+msgid "The task couldn't be performed due to a timeout in the request"
+msgstr "Завдання не вдалося виконати через тайм-аут запиту"
+
+#. module: stock_vlm_mgmt
+#. odoo-python
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
+msgid ""
+"The task couldn't be performed. Try again or check  the vertical lift module"
+" for hardware issues"
+msgstr ""
+"Завдання не вдалося виконати. Спробуйте ще раз або перевірте модуль "
+"вертикального підйомника на апаратні проблеми"
+
+#. module: stock_vlm_mgmt
+#. odoo-python
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
+msgid "The task was cancelled by the VLM"
+msgstr "Завдання скасовано VLM"
+
+#. module: stock_vlm_mgmt
+#. odoo-python
+#: code:addons/stock_vlm_mgmt/models/stock_vlm_task.py:0
+msgid "There are no pending tasks to perform"
+msgstr "Немає завдань, що очікують виконання"
+
+#. module: stock_vlm_mgmt
+#. odoo-python
+#: code:addons/stock_vlm_mgmt/models/stock_quant.py:0
+msgid "You can't change the product"
+msgstr "Не можна змінити товар"
