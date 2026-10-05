@@ -201,3 +201,19 @@ msgstr "Орієнтовна кількість"
 #: model:ir.model.fields,field_description:stock_demand_estimate_matrix.field_stock_demand_estimate__date_range_id
 msgid "Estimating Period"
 msgstr "Період оцінювання"
+
+#. module: stock_demand_estimate_matrix
+#: model:ir.model,name:stock_demand_estimate_matrix.model_stock_demand_estimate
+msgid "Stock Demand Estimate Line"
+msgstr "Рядок оцінки попиту на запас"
+
+#. module: stock_demand_estimate_matrix
+#: model:ir.model,name:stock_demand_estimate_matrix.model_stock_demand_estimate_sheet_line
+msgid "Stock Demand Estimate Sheet Line"
+msgstr "Рядок аркуша оцінки попиту на запас"
+
+#. module: stock_demand_estimate_matrix
+#. odoo-python
+#: code:addons/stock_demand_estimate_matrix/wizards/stock_demand_estimate_wizard.py:0
+msgid "The start date cannot be later than the end date."
+msgstr "Дата початку не може бути пізнішою за дату завершення."

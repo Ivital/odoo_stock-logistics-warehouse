@@ -50,3 +50,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:stock_picking_completion_info.selection__stock_picking__completion_info__next_picking_ready
 msgid "Next operations are ready to be processed."
 msgstr "Наступні операції готові до обробки."
+
+#. module: stock_picking_completion_info
+#: model:ir.model.fields,help:stock_picking_completion_info.field_stock_picking_type__display_completion_info
+msgid ""
+"Inform operator of a completed operation at processing and at completion"
+msgstr ""
+"Інформувати оператора про завершену операцію під час обробки та після "
+"завершення"

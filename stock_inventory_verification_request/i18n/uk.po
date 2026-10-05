@@ -363,7 +363,7 @@ msgstr ""
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,help:stock_inventory_verification_request.field_stock_inventory__solving_slot_verification_request_id
 msgid "This Inventory adjustment was created from the specified SVR."
-msgstr ""
+msgstr "Це коригування запасів було створено із зазначеного SVR."
 
 #. module: stock_inventory_verification_request
 #: model:ir.model.fields,field_description:stock_inventory_verification_request.field_stock_slot_verification_request__message_unread
@@ -421,3 +421,13 @@ msgstr "Кількість повідомлень, що потребують д�
 #: model_terms:ir.ui.view,arch_db:stock_inventory_verification_request.stock_slot_verification_request_form_view
 msgid "Product Moves related to the given location and Product/lot."
 msgstr "Переміщення товару, пов’язані з указаним місцем і товаром/партією."
+
+#. module: stock_inventory_verification_request
+#: model:ir.model.fields,help:stock_inventory_verification_request.field_stock_slot_verification_request__created_inventory_ids
+msgid "These inventory adjustments were created from this SVR."
+msgstr "Ці коригування запасів були створені з цього SVR."
+
+#. module: stock_inventory_verification_request
+#: model:ir.model.fields,help:stock_inventory_verification_request.field_stock_slot_verification_request__processed_by
+msgid "User who has solved or cancelled the request."
+msgstr "Користувач, який вирішив або скасував запит."

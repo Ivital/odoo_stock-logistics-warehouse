@@ -84,3 +84,8 @@ msgstr "Лоток порожній?"
 #: model_terms:ir.ui.view,arch_db:stock_vertical_lift_empty_tray_check.res_config_settings_view_form
 msgid "Operator will verify when system detects an empty vertical tray"
 msgstr "Оператор перевірить, коли система виявить порожній вертикальний лоток"
+
+#. module: stock_vertical_lift_empty_tray_check
+#: model:ir.model,name:stock_vertical_lift_empty_tray_check.model_vertical_lift_operation_pick_zero_check
+msgid "Make sure the tray location is empty"
+msgstr "Переконайтеся, що місце лотка порожнє"

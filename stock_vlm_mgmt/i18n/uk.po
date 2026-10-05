@@ -659,3 +659,62 @@ msgstr "Часткові завдання VLM"
 #: model:ir.model.fields,field_description:stock_vlm_mgmt.field_stock_vlm_task_action__vlm_tasks_progress
 msgid "Vlm Tasks Progress"
 msgstr "Прогрес завдань VLM"
+
+#. module: stock_vlm_mgmt
+#: model:ir.model,name:stock_vlm_mgmt.model_stock_vlm_task_action
+msgid "Actions to perform on vlm task exceptions"
+msgstr "Дії при винятках завдання VLM"
+
+#. module: stock_vlm_mgmt
+#: model:ir.model.fields,help:stock_vlm_mgmt.field_stock_location__vlm_address
+msgid ""
+"An VLM normally will be behind some propietary proxy that handles several "
+"VLMs at once, so we need to set which one corresponds to this location"
+msgstr ""
+"VLM зазвичай працює за власним проксі, який одночасно обслуговує кілька VLM,"
+" тому потрібно вказати, який із них відповідає цій локації."
+
+#. module: stock_vlm_mgmt
+#: model:ir.model.fields,help:stock_vlm_mgmt.field_stock_location_vlm_tray_type__depth
+msgid "Depth of the tray in mm"
+msgstr "Глибина лотка в мм"
+
+#. module: stock_vlm_mgmt
+#: model:ir.model.fields,help:stock_vlm_mgmt.field_stock_location_vlm_tray_type__height
+msgid "Height of the tray in mm"
+msgstr "Висота лотка в мм"
+
+#. module: stock_vlm_mgmt
+#: model:ir.model,name:stock_vlm_mgmt.model_stock_location_vlm_tray
+msgid "Individual trays in a Vertical Lift Module"
+msgstr "Окремі лотки в модулі вертикального ліфта"
+
+#. module: stock_vlm_mgmt
+#: model:ir.model.fields,help:stock_vlm_mgmt.field_stock_move_line__vlm_pending_quantity
+msgid "Quantity pending on VLM Operations"
+msgstr "Кількість в очікуванні в операціях VLM"
+
+#. module: stock_vlm_mgmt
+#: model:ir.model,name:stock_vlm_mgmt.model_vlm_tray_cell_position_mixin
+msgid "Tray position helpers"
+msgstr "Допоміжні позиції лотка"
+
+#. module: stock_vlm_mgmt
+#: model:ir.model,name:stock_vlm_mgmt.model_stock_location_vlm_tray_type
+msgid "VLM Tray configuration"
+msgstr "Конфігурація лотка VLM"
+
+#. module: stock_vlm_mgmt
+#: model:ir.model,name:stock_vlm_mgmt.model_stock_quant_vlm
+msgid "Vertical Lift Module structure inside the quant"
+msgstr "Структура модуля вертикального ліфта всередині кванта"
+
+#. module: stock_vlm_mgmt
+#: model:ir.model,name:stock_vlm_mgmt.model_stock_vlm_task
+msgid "Vertical Lift Module task"
+msgstr "Завдання модуля вертикального ліфта"
+
+#. module: stock_vlm_mgmt
+#: model:ir.model.fields,help:stock_vlm_mgmt.field_stock_location_vlm_tray_type__width
+msgid "Width of the tray in mm"
+msgstr "Ширина лотка в мм"

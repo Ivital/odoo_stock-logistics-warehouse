@@ -91,7 +91,7 @@ msgstr "Тривалість (обчислена)"
 #. module: stock_demand_estimate
 #: model:ir.model.fields,help:stock_demand_estimate.field_stock_demand_estimate__manual_duration
 msgid "Duration (in days)"
-msgstr ""
+msgstr "Тривалість (у днях)"
 
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search

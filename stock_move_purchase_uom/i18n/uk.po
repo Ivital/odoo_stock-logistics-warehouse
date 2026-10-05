@@ -32,3 +32,21 @@ msgstr "Метод округлення од. виміру закупівлі"
 #: model:ir.model.fields,field_description:stock_move_purchase_uom.field_stock_picking_type__use_purchase_uom
 msgid "Use Purchase Uom"
 msgstr "Використовувати одиницю виміру закупівлі"
+
+#. module: stock_move_purchase_uom
+#: model:ir.model.fields,help:stock_move_purchase_uom.field_stock_picking_type__purchase_uom_rounding_method
+msgid ""
+"The tie-breaking rule used for float rounding operations when using the "
+"Purchase UoM"
+msgstr ""
+"Правило розв’язання нічиєї для операцій округлення чисел із плаваючою комою "
+"при використанні одиниці закупівлі"
+
+#. module: stock_move_purchase_uom
+#: model:ir.model.fields,help:stock_move_purchase_uom.field_stock_picking_type__use_purchase_uom
+msgid ""
+"Use the product purchase UoM instead of the default UoM for the moves "
+"belonging to this operation type"
+msgstr ""
+"Використовувати закупівельну одиницю вимірювання товару замість типової для "
+"переміщень цього типу операції"

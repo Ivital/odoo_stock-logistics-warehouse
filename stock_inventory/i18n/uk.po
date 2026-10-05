@@ -335,3 +335,22 @@ msgstr "Історія комунікації через вебсайт"
 #: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
 msgid "e.g. Annual inventory"
 msgstr "напр. Щорічна інвентаризація"
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__exclude_sublocation
+msgid ""
+"If enabled, it will only take into account the locations selected, and not "
+"their children."
+msgstr ""
+"Якщо ввімкнено, враховуватимуться лише вибрані місця розташування, без їх "
+"дочірніх."
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__responsible_id
+msgid "Specific responsible of Inventory Adjustment."
+msgstr "Конкретний відповідальний за коригування запасів."
+
+#. module: stock_inventory
+#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__owner_id
+msgid "This is the owner of the inventory adjustment"
+msgstr "Це власник коригування запасів"

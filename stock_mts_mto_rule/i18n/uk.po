@@ -37,3 +37,21 @@ msgstr "Виберіть між MTS і MTO"
 #: model:ir.model.fields,field_description:stock_mts_mto_rule.field_stock_warehouse__mto_mts_management
 msgid "Use MTO+MTS rules"
 msgstr "Використовувати правила MTO+MTS"
+
+#. module: stock_mts_mto_rule
+#: model:ir.model.fields,help:stock_mts_mto_rule.field_stock_warehouse__mto_mts_management
+msgid ""
+"If this new route is selected on product form view, a purchase order will be"
+" created only if the virtual stock is less than 0 else, the product will be "
+"taken from stocks"
+msgstr ""
+"Якщо цей новий маршрут вибрано у формі товару, замовлення на закупівлю буде "
+"створено лише коли віртуальний запас менший за 0; інакше товар буде взято із"
+" запасу."
+
+#. module: stock_mts_mto_rule
+#. odoo-python
+#: code:addons/stock_mts_mto_rule/models/stock_warehouse.py:0
+#: model:stock.route,name:stock_mts_mto_rule.route_mto_mts
+msgid "Make To Order + Make To Stock"
+msgstr "Під замовлення + На склад"

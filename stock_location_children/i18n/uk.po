@@ -23,3 +23,8 @@ msgstr "Дочірні"
 #: model_terms:ir.ui.view,arch_db:stock_location_children.stock_location_form_view
 msgid "These are the children locations of the current one."
 msgstr "Це дочірні місця поточного місця."
+
+#. module: stock_location_children
+#: model:ir.model.fields,help:stock_location_children.field_stock_location__children_ids
+msgid "All the children (multi-level) stock location of this location"
+msgstr "Усі дочірні (багаторівневі) складські місця цього місця"

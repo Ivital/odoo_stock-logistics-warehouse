@@ -95,3 +95,13 @@ msgstr ""
 "Тут можна визначити профілі маршрутів, що проходять через\n"
 "                ваші склади та визначають потоки товарів.\n"
 "                Профіль маршруту можна встановити для кожного товару як «Профіль маршруту» або «Пріоритетний профіль маршруту» (залежить від компанії)."
+
+#. module: product_route_profile
+#: model:ir.model.fields,help:product_route_profile.field_product_product__force_route_profile_id
+#: model:ir.model.fields,help:product_route_profile.field_product_template__force_route_profile_id
+msgid ""
+"If defined, the priority route profile will be used and will replace the "
+"route profile, only for this company."
+msgstr ""
+"Якщо визначено, профіль маршруту з пріоритетом буде використано замість "
+"звичайного профілю маршруту лише для цієї компанії."

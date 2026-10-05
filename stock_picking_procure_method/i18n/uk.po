@@ -17,3 +17,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_procure_method.field_stock_picking__procure_method
 msgid "Supply Method"
 msgstr "Метод постачання"
+
+#. module: stock_picking_procure_method
+#: model:ir.model.fields,help:stock_picking_procure_method.field_stock_picking__procure_method
+msgid ""
+"By default, the system will take from the stock in the source location and "
+"passively wait for availability. The other possibility allows you to "
+"directly create a procurement on the source location (and thus ignore its "
+"current stock) to gather products. If we want to chain moves and have this "
+"one to wait for the previous, this second option should be chosen."
+msgstr ""
+"За замовчуванням система бере товар із запасу у вихідному місці й пасивно "
+"очікує доступності. Інший варіант дозволяє безпосередньо створити "
+"забезпечення у вихідному місці (ігноруючи поточний запас), щоб зібрати "
+"товари. Для ланцюга переміщень, де це переміщення має чекати попереднього, "
+"слід вибрати другий варіант."

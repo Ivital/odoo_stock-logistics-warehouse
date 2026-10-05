@@ -99,3 +99,17 @@ msgstr "Примітка обов’язкова?"
 #: model:ir.model.fields,field_description:stock_lot_condition.field_stock_lot__condition_required_note
 msgid "Condition Required Note"
 msgstr "Примітка, обов’язкова за умовою"
+
+#. module: stock_lot_condition
+#: model:ir.model.fields,help:stock_lot_condition.field_stock_lot_condition__required_note
+msgid ""
+"If this box is checked, it will be mandatory to indicate a text for this "
+"condition in lots."
+msgstr ""
+"Якщо прапорець установлено, для цієї умови в партіях обов’язково потрібно "
+"буде вказати текст."
+
+#. module: stock_lot_condition
+#: model:ir.model,name:stock_lot_condition.model_stock_lot_condition
+msgid "Stock Lot Condition"
+msgstr "Стан партії запасу"

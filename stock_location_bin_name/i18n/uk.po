@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_location_bin_name.field_stock_location__location_name_format
 msgid "Location Name Format"
 msgstr "Формат назви місця"
+
+#. module: stock_location_bin_name
+#: model:ir.model.fields,help:stock_location_bin_name.field_stock_location__location_name_format
+msgid ""
+"Format string that will compute the name of the location. Use location fields. Example: '{area}-{corridor:0>2}.{rack:0>3}.{level:0>2}'\n"
+"Missing fields are replaced by '~' and formatting errors by '!'."
+msgstr ""
+"Рядок формату, за яким обчислюватиметься назва розташування. Використовуйте поля розташування. Приклад: '{area}-{corridor:0>2}.{rack:0>3}.{level:0>2}'\n"
+"Відсутні поля замінюються на '~', а помилки форматування — на '!'."

@@ -135,3 +135,62 @@ msgstr ""
 "Ви не можете підтвердити коригування запасів,\n"
 "                    оскільки наведені нижче товари перевищили поріг розбіжності.\n"
 "                    Продовжити можуть лише користувачі з правами на застосування таких коригувань."
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model,name:stock_inventory_discrepancy.model_confirm_discrepancy_wiz
+msgid "Confim discrepancy wizard"
+msgstr "Майстер підтвердження розбіжності"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,help:stock_inventory_discrepancy.field_stock_warehouse__discrepancy_threshold
+msgid ""
+"Maximum Discrepancy Rate allowed for any product when doing an Inventory "
+"Adjustment. Threshold defined in involved Location has preference."
+msgstr ""
+"Максимально допустимий рівень розбіжності для будь-якого товару під час "
+"коригування запасів. Порогове значення, задане для відповідної локації, має "
+"пріоритет."
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,help:stock_inventory_discrepancy.field_stock_location__discrepancy_threshold
+msgid ""
+"Maximum Discrepancy Rate allowed for any product when doing an Inventory "
+"Adjustment. Thresholds defined in Locations have preference over Warehouse's"
+" ones."
+msgstr ""
+"Максимально допустимий рівень розбіжності для будь-якого товару під час "
+"коригування запасів. Порогові значення, визначені для локацій, мають "
+"пріоритет над значеннями складу."
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,help:stock_inventory_discrepancy.field_stock_location__propagate_discrepancy_threshold
+msgid "Propagate Maximum Discrepancy Rate Threshold to child locations"
+msgstr "Поширити максимальний поріг коефіцієнта розбіжності на дочірні місця"
+
+#. module: stock_inventory_discrepancy
+#: model:ir.model.fields,help:stock_inventory_discrepancy.field_stock_quant__discrepancy_percent
+msgid ""
+"The discrepancy expressed in percent with theoretical quantity as basis"
+msgstr "Розбіжність у відсотках, розрахована на основі теоретичної кількості"
+
+#. module: stock_inventory_discrepancy
+#. odoo-python
+#: code:addons/stock_inventory_discrepancy/models/stock_quant.py:0
+msgid "This operator is not supported"
+msgstr "Цей оператор не підтримується"
+
+#. module: stock_inventory_discrepancy
+#: model:res.groups,name:stock_inventory_discrepancy.group_stock_inventory_validation
+msgid "Validate Inventory Adjustments"
+msgstr "Підтвердити коригування запасів"
+
+#. module: stock_inventory_discrepancy
+#: model:res.groups,name:stock_inventory_discrepancy.group_stock_inventory_validation_always
+msgid "Validate Inventory Adjustments excceded threshold"
+msgstr "Підтвердити коригування запасів із перевищеним порогом"
+
+#. module: stock_inventory_discrepancy
+#. odoo-python
+#: code:addons/stock_inventory_discrepancy/models/stock_quant.py:0
+msgid "Value should be True or False (not %s)"
+msgstr "Значення має бути True або False (не %s)"

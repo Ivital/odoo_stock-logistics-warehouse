@@ -17,3 +17,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_warehouse_out_pull.field_stock_warehouse__delivery_pull
 msgid "Outgoing Pull Rules"
 msgstr "Правила вихідного отримання"
+
+#. module: stock_warehouse_out_pull
+#: model:ir.model.fields,help:stock_warehouse_out_pull.field_stock_warehouse__delivery_pull
+msgid "Configure the outgoing route with pull rules (ship -> pack -> pick)."
+msgstr ""
+"Налаштуйте вихідний маршрут із pull-правилами (відвантаження -> пакування ->"
+" відбір)."

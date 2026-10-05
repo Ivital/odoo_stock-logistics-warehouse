@@ -219,3 +219,38 @@ msgstr "Показувати місце джерела лотка"
 #: model:ir.model.fields,field_description:stock_location_tray.field_stock_location__tray_cell_contains_stock
 msgid "Tray Cell Contains Stock"
 msgstr "Комірка лотка містить запас"
+
+#. module: stock_location_tray
+#: model:ir.model.fields,help:stock_location_tray.field_stock_location__cell_name_format
+msgid ""
+"Cells sub-locations generated in a tray will be named after this format. "
+"Replacement fields between curly braces are used to inject positions. {x}, "
+"{y}, and {z} will be replaced by their corresponding position. Complex "
+"formatting (such as padding, ...) can be done using the format specification"
+" at  https://docs.python.org/3/library/string.html#formatstrings"
+msgstr ""
+"Підрозташування-комірки, створені в лотку, називатимуться за цим форматом. "
+"Поля заміни у фігурних дужках використовуються для підстановки позицій. {x},"
+" {y} та {z} буде замінено відповідними координатами. Складне форматування "
+"(наприклад, доповнення, ...) можна виконувати за специфікацією форматування:"
+" https://docs.python.org/3/library/string.html#formatstrings"
+
+#. module: stock_location_tray
+#: model:ir.model.fields,help:stock_location_tray.field_stock_location_tray_type__depth
+msgid "Depth of the tray in mm"
+msgstr "Глибина лотка в мм"
+
+#. module: stock_location_tray
+#: model:ir.model.fields,help:stock_location_tray.field_stock_location_tray_type__height
+msgid "Height of the tray in mm"
+msgstr "Висота лотка в мм"
+
+#. module: stock_location_tray
+#: model:ir.model.fields,help:stock_location_tray.field_stock_location__tray_cell_contains_stock
+msgid "Used to know if a cell of a Tray location is empty."
+msgstr "Використовується для визначення, чи порожня комірка лотка."
+
+#. module: stock_location_tray
+#: model:ir.model.fields,help:stock_location_tray.field_stock_location_tray_type__width
+msgid "Width of the tray in mm"
+msgstr "Ширина лотка в мм"

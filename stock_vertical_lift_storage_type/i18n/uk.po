@@ -22,3 +22,13 @@ msgstr "Розміщення"
 #: model:ir.model.fields,field_description:stock_vertical_lift_storage_type.field_stock_location_tray_type__storage_category_id
 msgid "Storage Category"
 msgstr "Категорія сховища"
+
+#. module: stock_vertical_lift_storage_type
+#: model:ir.model,name:stock_vertical_lift_storage_type.model_stock_location_tray_type
+msgid "Stock Location Tray Type"
+msgstr "Тип лотка складського місця"
+
+#. module: stock_vertical_lift_storage_type
+#: model:ir.model,name:stock_vertical_lift_storage_type.model_vertical_lift_operation_put
+msgid "Vertical Lift Operation Put"
+msgstr "Операція вертикального ліфта — розміщення"

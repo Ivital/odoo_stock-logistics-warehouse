@@ -27,3 +27,8 @@ msgstr "Одиниці вимірювання об'єму"
 #: model:ir.model.fields,field_description:stock_package_type_volume.field_stock_package_type__volume_uom_name
 msgid "Volume Uom Name"
 msgstr "Назва одиниці об’єму"
+
+#. module: stock_package_type_volume
+#: model:ir.model.fields,help:stock_package_type_volume.field_stock_package_type__volume
+msgid "The Packaging volume"
+msgstr "Обсяг пакування"

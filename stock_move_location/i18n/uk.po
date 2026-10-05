@@ -227,3 +227,32 @@ msgstr "Показувати наявний запас переміщення"
 #: model:ir.model.fields,field_description:stock_move_location.field_wiz_stock_move_location_line__total_quantity
 msgid "Total existence quantity"
 msgstr "Загальна наявна кількість"
+
+#. module: stock_move_location
+#: model:ir.model.fields,help:stock_move_location.field_stock_picking_type__show_move_onhand
+msgid ""
+"Show a button 'Move On Hand' in the Inventory Dashboard to initiate the "
+"process to move the products in stock at the origin location."
+msgstr ""
+"Показувати кнопку «Перемістити наявний запас» на панелі запасів для запуску "
+"переміщення товарів, що є в запасі у вихідній локації."
+
+#. module: stock_move_location
+#: model:ir.model.fields,help:stock_move_location.field_stock_move__location_move
+msgid "Whether this move is a part of stock_location moves"
+msgstr "Чи є це переміщення частиною переміщень stock_location"
+
+#. module: stock_move_location
+#: model:ir.model,name:stock_move_location.model_wiz_stock_move_location_line
+msgid "Wizard move location line"
+msgstr "Рядок майстра переміщення місця"
+
+#. module: stock_move_location
+#: model:ir.model.fields,help:stock_move_location.field_wiz_stock_move_location__destination_location_disable
+msgid "technical field to disable the edition of destination location."
+msgstr "Технічне поле для вимкнення редагування місця призначення."
+
+#. module: stock_move_location
+#: model:ir.model.fields,help:stock_move_location.field_wiz_stock_move_location__origin_location_disable
+msgid "technical field to disable the edition of origin location."
+msgstr "Технічне поле для вимкнення редагування вихідного місця."

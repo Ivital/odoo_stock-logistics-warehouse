@@ -52,3 +52,50 @@ msgstr "Стелаж"
 #: model:ir.model.fields,field_description:stock_location_position.field_stock_location__row
 msgid "Row"
 msgstr "Рядок"
+
+#. module: stock_location_position
+#: model:ir.model.fields,help:stock_location_position.field_stock_location__level
+msgid "Define as the floor of the house"
+msgstr "Визначити як поверх будинку"
+
+#. module: stock_location_position
+#: model:ir.model.fields,help:stock_location_position.field_stock_location__rack
+msgid "Define as the house number within the street"
+msgstr "Визначити як номер будинку в межах вулиці"
+
+#. module: stock_location_position
+#: model:ir.model.fields,help:stock_location_position.field_stock_location__row
+msgid "Define as the side within the street"
+msgstr "Визначити як бік у межах вулиці"
+
+#. module: stock_location_position
+#: model:ir.model.fields,help:stock_location_position.field_stock_location__corridor
+msgid "Define as the street"
+msgstr "Визначити як вулицю"
+
+#. module: stock_location_position
+#: model:ir.model.fields,help:stock_location_position.field_stock_location__posx
+msgid ""
+"Optional (X) coordinate of the bin if the location is split in several "
+"parts. (e.g. drawer storage)"
+msgstr ""
+"Необов’язкова координата X комірки, якщо місце розділено на кілька частин "
+"(напр. шухляда)."
+
+#. module: stock_location_position
+#: model:ir.model.fields,help:stock_location_position.field_stock_location__posy
+msgid ""
+"Optional (Y) coordinate of the bin if the location is split in several "
+"parts. (e.g. drawer storage)"
+msgstr ""
+"Необов’язкова координата Y комірки, якщо місце розділено на кілька частин "
+"(напр. шухляда)."
+
+#. module: stock_location_position
+#: model:ir.model.fields,help:stock_location_position.field_stock_location__posz
+msgid ""
+"Optional (Z) coordinate of the bin if the location is split in several "
+"parts. (e.g. storage tray)"
+msgstr ""
+"Необов’язкова координата Z комірки, якщо місце розділено на кілька частин "
+"(напр. лоток зберігання)."

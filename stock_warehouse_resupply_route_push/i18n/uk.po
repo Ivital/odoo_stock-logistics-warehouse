@@ -41,3 +41,11 @@ msgid ""
 msgstr ""
 "Це архівує поточні міжскладські маршрути та створить нові на основі поточної"
 " конфігурації."
+
+#. module: stock_warehouse_resupply_route_push
+#: model:ir.model.fields,help:stock_warehouse_resupply_route_push.field_stock_warehouse__resupply_wh_push
+msgid ""
+"Note that this will create new operation type for inter-warehouse "
+"deliveries."
+msgstr ""
+"Зверніть увагу: буде створено новий тип операції для міжскладських доставок."

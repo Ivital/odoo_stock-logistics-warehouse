@@ -17,3 +17,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_supplier_ref.field_stock_picking__supplier_reference
 msgid "Supplier Delivery Reference"
 msgstr "Посилання на доставку постачальника"
+
+#. module: stock_picking_supplier_ref
+#: model:ir.model.fields,help:stock_picking_supplier_ref.field_stock_picking__supplier_reference
+msgid ""
+"Enter the supplier's delivery note or shipment reference related to this "
+"receipt. This does not sync automatically with the supplier reference in the"
+" purchase order."
+msgstr ""
+"Введіть номер накладної постачальника або посилання на відправлення, "
+"пов’язане з цим надходженням. Воно не синхронізується автоматично з "
+"посиланням постачальника в замовленні на закупівлю."

@@ -112,3 +112,13 @@ msgstr "Кількість залишкових підмісць"
 #: model:ir.model.fields,field_description:stock_inventory_location_state.field_stock_inventory__location_count
 msgid "Number of Sub-Locations"
 msgstr "Кількість підмісць"
+
+#. module: stock_inventory_location_state
+#: model:ir.model.constraint,message:stock_inventory_location_state.constraint_stock_inventory_location_inventory_location_unique
+msgid "Inventory location must be unique per inventory."
+msgstr "Місце інвентаризації має бути унікальним для кожної інвентаризації."
+
+#. module: stock_inventory_location_state
+#: model:ir.model,name:stock_inventory_location_state.model_stock_inventory_location
+msgid "Stock Inventory Location"
+msgstr "Місце інвентаризації запасу"

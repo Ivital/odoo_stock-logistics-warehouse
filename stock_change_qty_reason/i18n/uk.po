@@ -100,3 +100,33 @@ msgstr "Задана причина зміни кількості"
 #: model:ir.model.fields,field_description:stock_change_qty_reason.field_stock_quant_reason__description
 msgid "Reason Description"
 msgstr "Опис причини"
+
+#. module: stock_change_qty_reason
+#: model:ir.model.fields,help:stock_change_qty_reason.field_res_config_settings__group_qty_reason_preset
+msgid ""
+"Enable use of predefined Reasons to manage Inventory Adjustmentsand Product "
+"Update Quantities Wizard."
+msgstr ""
+"Увімкнути використання попередньо визначених причин для керування "
+"коригуваннями запасів і майстром оновлення кількості товарів."
+
+#. module: stock_change_qty_reason
+#: model:res.groups,name:stock_change_qty_reason.group_qty_reason_preset
+msgid "Manage Stock Change Qty Preset Reasons"
+msgstr "Керування типовими причинами зміни кількості запасів"
+
+#. module: stock_change_qty_reason
+#: model:ir.model,name:stock_change_qty_reason.model_stock_quant_reason
+msgid "Stock Quant Reason"
+msgstr "Причина кванта запасу"
+
+#. module: stock_change_qty_reason
+#: model:ir.model.fields,help:stock_change_qty_reason.field_stock_move_line__reason
+#: model:ir.model.fields,help:stock_change_qty_reason.field_stock_quant__reason
+msgid "Type in a reason for the product quantity change"
+msgstr "Укажіть причину зміни кількості товару"
+
+#. module: stock_change_qty_reason
+#: model:ir.model.constraint,message:stock_change_qty_reason.constraint_stock_quant_reason_name_unique
+msgid "You cannot have two reason with the same name."
+msgstr "Не можна мати дві причини з однаковою назвою."

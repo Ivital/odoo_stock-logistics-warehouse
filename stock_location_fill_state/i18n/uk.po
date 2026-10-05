@@ -47,3 +47,12 @@ msgstr "Заповнено"
 #: model:ir.model.fields,field_description:stock_location_fill_state.field_stock_location__exclude_from_fill_state_computation
 msgid "Exclude From Fill State Computation"
 msgstr "Виключити з розрахунку стану заповнення"
+
+#. module: stock_location_fill_state
+#: model:ir.model.fields,help:stock_location_fill_state.field_stock_location__exclude_from_fill_state_computation
+msgid ""
+"Don't compute the fill state for this location. Checking this onintensively "
+"used locations can improve performances."
+msgstr ""
+"Не обчислювати стан заповнення для цього місця. Увімкнення на інтенсивно "
+"використовуваних місцях може підвищити продуктивність."

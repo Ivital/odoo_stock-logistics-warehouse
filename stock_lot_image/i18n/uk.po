@@ -138,3 +138,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_lot_image.stock_lot_image_view_form
 msgid "Please enter a valid Video URL."
 msgstr "Будь ласка, введіть коректний URL відео."
+
+#. module: stock_lot_image
+#: model:ir.model,name:stock_lot_image.model_stock_lot_image
+msgid "Stock Lot Image"
+msgstr "Зображення партії запасу"
+
+#. module: stock_lot_image
+#: model:ir.model.fields,help:stock_lot_image.field_stock_lot_image__video_url
+msgid "URL of a video for showcasing your lot."
+msgstr "URL відео для демонстрації вашої партії."

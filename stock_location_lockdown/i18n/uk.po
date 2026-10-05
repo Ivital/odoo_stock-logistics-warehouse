@@ -17,3 +17,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_location_lockdown.field_stock_location__block_stock_entrance
 msgid "Block Stock Entrance"
 msgstr "Блокувати надходження запасів"
+
+#. module: stock_location_lockdown
+#: model:ir.model.fields,help:stock_location_lockdown.field_stock_location__block_stock_entrance
+msgid ""
+"If this box is checked, putting stock on this location won't be allowed. Use"
+" this to temporarily block stock movements or to enforce restrictions in "
+"both physical and virtual locations."
+msgstr ""
+"Якщо встановити цей прапорець, розміщення запасів у цій локації буде "
+"заборонено. Використовуйте це для тимчасового блокування переміщень або "
+"примусового застосування обмежень у фізичних і віртуальних локаціях."

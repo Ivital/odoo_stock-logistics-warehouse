@@ -87,6 +87,8 @@ msgid ""
 "Allows to start with a pre-filled counted quantity for each lines or with "
 "all counted quantities set to zero."
 msgstr ""
+"Дозволяє починати з попередньо заповненої підрахованої кількості в кожному "
+"рядку або з нульової кількості в усіх рядках."
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -259,6 +261,8 @@ msgid ""
 "Cycle Count planning horizon in days. Only the counts inside the horizon "
 "will be created."
 msgstr ""
+"Горизонт планування циклічних підрахунків у днях. Буде створено лише "
+"підрахунки в межах горизонту."
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.view_warehouse_form
@@ -336,6 +340,7 @@ msgstr "За замовчуванням нуль"
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_location__cycle_count_disabled
 msgid "Define whether the location is going to be cycle counted."
 msgstr ""
+"Визначає, чи буде для місця зберігання виконуватися циклічний підрахунок."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_location__zero_confirmation_disabled
@@ -343,6 +348,8 @@ msgid ""
 "Define whether this location will trigger a zero-confirmation validation "
 "when a rule for its warehouse is defined to perform zero-confirmations."
 msgstr ""
+"Визначає, чи запускатиме ця локація перевірку нульового підтвердження, коли "
+"для її складу визначено правило виконання нульових підтверджень."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_location__zero_confirmation_disabled
@@ -549,7 +556,7 @@ msgstr "Розташування"
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_report_stock_location_accuracy
 msgid "Location Accuracy Report"
-msgstr ""
+msgstr "Звіт точності місцезнаходження"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_main_attachment_id
@@ -608,6 +615,8 @@ msgstr "Кількість помилок"
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_warehouse__counts_for_accuracy_qty
 msgid "Number of latest inventories used to calculate location accuracy"
 msgstr ""
+"Кількість останніх інвентаризацій, що використовуються для розрахунку "
+"точності місця"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_cycle_count__message_needaction_counter
@@ -736,12 +745,12 @@ msgstr "Правила циклічного підрахунку запасів"
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_stock_cycle_count
 msgid "Stock Cycle Counts"
-msgstr ""
+msgstr "Циклічні інвентаризації запасів"
 
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_stock_cycle_count_rule
 msgid "Stock Cycle Counts Rules"
-msgstr ""
+msgstr "Правила циклічних інвентаризацій запасу"
 
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_stock_move

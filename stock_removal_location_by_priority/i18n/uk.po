@@ -26,3 +26,21 @@ msgstr "Пріоритет видалення"
 #: model_terms:ir.ui.view,arch_db:stock_removal_location_by_priority.view_stock_config_settings
 msgid "Use <i>Removal Priority</i> in Locations"
 msgstr "Використовувати <i>Пріоритет вилучення</i> у місцях"
+
+#. module: stock_removal_location_by_priority
+#: model:ir.model.fields,help:stock_removal_location_by_priority.field_res_config_settings__group_removal_priority
+msgid ""
+"Removal priority that applies when the incoming dates are equal in both "
+"locations."
+msgstr ""
+"Пріоритет вилучення, який застосовується, коли дати надходження в обох "
+"місцях однакові."
+
+#. module: stock_removal_location_by_priority
+#: model:ir.model.fields,help:stock_removal_location_by_priority.field_stock_location__removal_priority
+#: model:ir.model.fields,help:stock_removal_location_by_priority.field_stock_quant__removal_priority
+msgid ""
+"This priority applies when removing stock and incoming dates are equal."
+msgstr ""
+"Цей пріоритет застосовується під час вилучення запасу, коли дати надходження"
+" однакові."

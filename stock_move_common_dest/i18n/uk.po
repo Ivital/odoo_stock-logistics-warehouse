@@ -22,3 +22,12 @@ msgstr "Спільне переміщення призначення"
 #: model_terms:ir.ui.view,arch_db:stock_move_common_dest.view_move_form_inherit
 msgid "Common destination moves"
 msgstr "Переміщення зі спільним призначенням"
+
+#. module: stock_move_common_dest
+#: model:ir.model.fields,help:stock_move_common_dest.field_stock_move__common_dest_move_ids
+msgid ""
+"All the stock moves having a chained destination move sharing the same "
+"picking as the actual move's destination move"
+msgstr ""
+"Усі складські переміщення з пов’язаним переміщенням призначення, що мають те"
+" саме комплектування, що й переміщення призначення поточного переміщення"

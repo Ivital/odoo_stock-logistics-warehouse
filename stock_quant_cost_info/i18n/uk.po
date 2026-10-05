@@ -24,3 +24,10 @@ msgstr "Разом"
 #: model_terms:ir.ui.view,arch_db:stock_quant_cost_info.view_stock_quant_tree_inventory_editable
 msgid "Adjustment Cost"
 msgstr "Вартість коригування"
+
+#. module: stock_quant_cost_info
+#: model:ir.model.fields,help:stock_quant_cost_info.field_stock_quant__adjustment_cost
+msgid "(Real Quantity - Theoretical Quantity) multiplied by the Product Cost"
+msgstr ""
+"(Фактична кількість - Теоретична кількість), помножена на собівартість "
+"товару"

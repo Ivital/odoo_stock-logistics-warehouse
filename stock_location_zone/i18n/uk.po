@@ -68,3 +68,22 @@ msgstr "Місце зони"
 #: model:ir.model.fields,field_description:stock_location_zone.field_stock_location__is_zone
 msgid "Is a Zone Location?"
 msgstr "Це зональне місце?"
+
+#. module: stock_location_zone
+#: model:ir.model.fields,help:stock_location_zone.field_stock_location__location_kind
+msgid ""
+"Group location according to their kinds: * Zone: locations that are flagged "
+"as being zones * Area: locations with children that are part of a zone * "
+"Bin: locations without children that are part of a zone * Stock: internal "
+"locations whose parent is a view * Other: any other location"
+msgstr ""
+"Групувати розташування за їх типами: * Зона: розташування, позначені як зони"
+" * Ділянка: розташування з дочірніми елементами, що є частиною зони * "
+"Комірка: розташування без дочірніх елементів, що є частиною зони * Запас: "
+"внутрішні розташування, батьківським елементом яких є подання * Інше: будь-"
+"яке інше розташування"
+
+#. module: stock_location_zone
+#: model:ir.model.fields,help:stock_location_zone.field_stock_location__is_zone
+msgid "Mark to define this location as a zone"
+msgstr "Позначте, щоб визначити це місце як зону"

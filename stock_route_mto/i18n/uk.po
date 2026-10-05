@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_route_mto.field_stock_route__is_mto
 msgid "Is Mto"
 msgstr "Є MTO"
+
+#. module: stock_route_mto
+#: model:ir.model.fields,help:stock_route_mto.field_stock_route__is_mto
+msgid ""
+"Is a MTO (Make to Order) route. Check this if you want to identifythis route"
+" as an MTO one."
+msgstr ""
+"Це маршрут MTO (виробництво/закупівля під замовлення). Позначте, щоб "
+"ідентифікувати маршрут як MTO."

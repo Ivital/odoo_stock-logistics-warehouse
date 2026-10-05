@@ -19,3 +19,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_vertical_lift_qty_by_packaging.field_vertical_lift_operation_transfer__product_qty_by_packaging_display
 msgid "Product Qty By Packaging Display"
 msgstr "Відображення кількості товару за пакуванням"
+
+#. module: stock_vertical_lift_qty_by_packaging
+#: model:ir.model,name:stock_vertical_lift_qty_by_packaging.model_vertical_lift_operation_transfer
+msgid "Vertical Lift Operation - Transfer"
+msgstr "Операція вертикального ліфта — переміщення"
